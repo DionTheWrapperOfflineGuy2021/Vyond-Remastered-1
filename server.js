@@ -3,8 +3,8 @@ const env = Object.assign(process.env,
 	require('./config'));
 
 const http = require('http');
-const pmc = require('./character/premade');
 const chr = requrie('./character/redirect');
+const pmc = require('./character/premade');
 const chl = require('./character/load');
 const chs = require('./character/save');
 const mvu = require('./movie/upload');
