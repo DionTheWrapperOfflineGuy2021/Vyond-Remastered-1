@@ -95,17 +95,17 @@ module.exports = function (req, res, url) {
 <meta name="google-site-verification" content="K_niiTfCVi72gwvxK00O4NjsVybMutMUnc-ZnN6HUuA">
 
 
-<link href="/html/lvpfiles/sailec.css" rel="stylesheet" type="text/css">
-<link href="/html/lvpfiles/common_combined.css.gz.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/lvp_2019_files/sailec.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/lvp_2019_files/common_combined.css.gz.css" rel="stylesheet" type="text/css">
 
-<link href="/html/lvpfiles/watermark.css.gz.css" rel="stylesheet" type="text/css">
-<link href="/html/lvpfiles/video.css.gz.css" rel="stylesheet" type="text/css">
-<link href="/html/lvpfiles/video_export.css.gz.css" rel="stylesheet" type="text/css">
-<link href="/html/lvpfiles/movie_license.css.gz.css" rel="stylesheet" type="text/css">
-<link href="/html/lvpfiles/video_voice_vendor.css.gz.css" rel="stylesheet" type="text/css">
-<link href="/html/lvpfiles/bootstrap-tokenfield.min.css.gz.css" rel="stylesheet" type="text/css">
-<link href="/html/lvpfiles/bootstrap-tokenfield-addon.css.gz.css" rel="stylesheet" type="text/css">
-<link href="/html/lvpfiles/video_page_worknote.css.gz.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/lvp_2019_files/watermark.css.gz.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/lvp_2019_files/video.css.gz.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/lvp_2019_files/video_export.css.gz.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/lvp_2019_files/movie_license.css.gz.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/lvp_2019_files/video_voice_vendor.css.gz.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/lvp_2019_files/bootstrap-tokenfield.min.css.gz.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/lvp_2019_files/bootstrap-tokenfield-addon.css.gz.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/lvp_2019_files/video_page_worknote.css.gz.css" rel="stylesheet" type="text/css">
 <!--[if lt IE 9]>
 <style text="text/css">
 .top-nav.collapse {height: auto;overflow: visible;}
@@ -117,24 +117,24 @@ var srv_tz_os = -5, view_name = "go", user_cookie_name = "u_info";
 var user_role = null;
 </script>
 
-<script src="/html/lvpfiles/common_combined.js.gz.js"></script>
-<script type="text/javascript" src="/html/lvpfiles/goserver_js-en_US.json.gz.json"></script>
+<script src="https://josephcrosmanplays532.github.io/lvp_2019_files/common_combined.js.gz.js"></script>
+<script type="text/javascript" src="https://josephcrosmanplays532.github.io/lvp_2019_files/goserver_js-en_US.json.gz.json"></script>
 <script type="text/javascript">
 var I18N_LANG = 'en_US';
 var GT = new Gettext({'locale_data': json_locale_data});
 </script>
 
-<script src="/html/lvpfiles/jquery.ui.core.min.js.gz.js"></script>
-<script src="/html/lvpfiles/jquery.ui.widget.min.js.gz.js"></script>
-<script src="/html/lvpfiles/jquery.ui.position.min.js.gz.js"></script>
-<script src="/html/lvpfiles/jquery.ui.menu.min.js.gz.js"></script>
-<script src="/html/lvpfiles/jquery.ui.autocomplete.min.js.gz.js"></script>
-<script src="/html/lvpfiles/jquery.waypoints2.min.js.gz.js"></script>
-<script src="/html/lvpfiles/bootstrap-tokenfield.min.js.gz.js"></script>
-<script src="/html/lvpfiles/trial_upsell.js.gz.js"></script>
-<script src="/html/lvpfiles/moment.min.js.gz.js"></script>
-<script src="/html/lvpfiles/country-options.js.gz.js"></script>
-<script src="/html/lvpfiles/go_amp.js.gz.js"></script>
+<script src="https://josephcrosmanplays532.github.io/lvp_2019_files/jquery.ui.core.min.js.gz.js"></script>
+<script src="https://josephcrosmanplays532.github.io/lvp_2019_files/jquery.ui.widget.min.js.gz.js"></script>
+<script src="https://josephcrosmanplays532.github.io/lvp_2019_files/jquery.ui.position.min.js.gz.js"></script>
+<script src="https://josephcrosmanplays532.github.io/lvp_2019_files/jquery.ui.menu.min.js.gz.js"></script>
+<script src="https://josephcrosmanplays532.github.io/lvp_2019_files/jquery.ui.autocomplete.min.js.gz.js"></script>
+<script src="https://josephcrosmanplays532.github.io/lvp_2019_files/jquery.waypoints2.min.js.gz.js"></script>
+<script src="https://josephcrosmanplays532.github.io/lvp_2019_files/bootstrap-tokenfield.min.js.gz.js"></script>
+<script src="https://josephcrosmanplays532.github.io/lvp_2019_files/trial_upsell.js.gz.js"></script>
+<script src="https://josephcrosmanplays532.github.io/lvp_2019_files/moment.min.js.gz.js"></script>
+<script src="https://josephcrosmanplays532.github.io/lvp_2019_files/country-options.js.gz.js"></script>
+<script src="https://josephcrosmanplays532.github.io/lvp_2019_files/go_amp.js.gz.js"></script>
 
 <!-- Vyond Cookie Consent -->
 <script>(function(v,y,o,n){v[n]=v[n]||[];
@@ -647,11 +647,11 @@ if (self !== top) {
         sceneDetails = {};
 </script>
 
-<script src="/html/lvpfiles/media-controller.js.gz.js"></script>
-<script src="/html/lvpfiles/video_page.js.gz.js"></script>
-<script src="/html/lvpfiles/video_page_worknote.js.gz.js"></script>
-<script src="/html/lvpfiles/video_page_player.js.gz.js"></script>
-<script src="/html/lvpfiles/video_page_player_control.js.gz.js"></script>
+<script src="https://josephcrosmanplays532.github.io/lvp_2019_files/media-controller.js.gz.js"></script>
+<script src="https://josephcrosmanplays532.github.io/lvp_2019_files/video_page.js.gz.js"></script>
+<script src="https://josephcrosmanplays532.github.io/lvp_2019_files/video_page_worknote.js.gz.js"></script>
+<script src="https://josephcrosmanplays532.github.io/lvp_2019_files/video_page_player.js.gz.js"></script>
+<script src="https://josephcrosmanplays532.github.io/lvp_2019_files/video_page_player_control.js.gz.js"></script>
 <script>
     var videoPage = new VideoPage("0c6PiRnn6biQ"),
         previewPlayer,
