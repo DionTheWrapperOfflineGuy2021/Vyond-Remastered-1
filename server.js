@@ -3,7 +3,7 @@ const env = Object.assign(process.env,
 	require('./config'));
 
 const http = require('http');
-const chr = requrie('./character/redirect');
+const chr = require('./character/redirect');
 const pmc = require('./character/premade');
 const chl = require('./character/load');
 const chs = require('./character/save');
