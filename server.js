@@ -4,6 +4,7 @@ const env = Object.assign(process.env,
 
 const http = require('http');
 const pmc = require('./character/premade');
+const chr = requrie('./character/redirect');
 const chl = require('./character/load');
 const chs = require('./character/save');
 const mvu = require('./movie/upload');
@@ -34,6 +35,7 @@ const functions = [
 	asl,
 	evt,
 	chl,
+	chr,
 	thl,
 	thL,
 	chs,
