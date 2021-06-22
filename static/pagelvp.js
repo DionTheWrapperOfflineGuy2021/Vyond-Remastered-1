@@ -255,37 +255,35 @@ if (self !== top) {
         <div class="thumbnail-container" style="background-image:url('https://josephcrosmanplays532.github.io/img/demo.png?enc_type=sse_c&amp;expires=1574936223&amp;sec_key_id=51209&amp;signature=985b0dc7cd794a445a410af1b4626309bab497665e0b03c72c95e02568b881cb')">
             <div class="thumbnail-overlay"></div>
         </div>
-        <div class="container">
-            <div class="row">
+<div class="container">
+            <div class="main">
                 <div class="player-container col-sm-7">
+                    <div class="notification using-h5 hidden-xs hidden">
+                        <span class="icon glyph-halfling glyph-info-sign"></span>
+                        Wellcome to the revival of vyond's old video player called the lvp! Play your video and the info on the video will get removed. don't worry, i swaped the defaults of the video player and the legacy video player is the default one. you don't have to do anything with it. i got it under control.                    </div>
+                    <div class="notification using-flash hidden-xs">
+                        <span class="icon glyph-halfling glyph-info-sign"></span>
+                        Wellcome to the revival of vyond's old video player called the lvp! Play your video and the info on the video will get removed. don't worry, i swaped the defaults of the video player and the legacy video player is the default one. you don't have to do anything with it. i got it under control.                    </div>
                     <div class="notification browser-no-mse hidden">
                         <span class="icon glyph-halfling glyph-info-sign"></span>
-                        We are optimizing this video to be compatible with your browser, please wait a few minutes then refresh this page. If you encounter any technical problems, switch to our <a data-action="user-opt-out">legacy video player</a>. <a href="https://support.vyond.com/hc/en-us/articles/206949976" target="_blank">Learn more.</a>                    </div>
-                    <div class="notification browser-no-mse-no-flash hidden">
-                        <span class="icon glyph-halfling glyph-info-sign"></span>
                         We are optimizing this video to be compatible with your browser, please wait a few minutes then refresh this page. <a href="https://support.vyond.com/hc/en-us/articles/206949976" target="_blank">Learn more.</a>                    </div>
-                    <div class="video-player">
-                        <div class="video-player-container">
-                            <div class="video-player-viewport" style="background-image: url('https://josephcrosmanplays532.github.io/img/demo.png?enc_type=sse_c&amp;expires=1574936223&amp;sec_key_id=51209&amp;signature=985b0dc7cd794a445a410af1b4626309bab497665e0b03c72c95e02568b881cb');">
-                                <div class="video-player-wrapper embed-responsive embed-responsive-16by9">
-                                    <div class="embed-responsive-item" id="flash-player">${toObjectString(attrs, params)}</div>
-                                        <div class="no-flash-player">
-                                            You can't use Vyond because Flash might be disabled. <a href="https://get.adobe.com/flashplayer/">Enable Flash</a>.
-                                        </div>
-                                    </div>
+                    <div class="video-player-viewport using-flash" style="background-image: url('https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/20077390L.jpg');">
+                        <div class="video-player-wrapper embed-responsive embed-responsive-16by9">
+                            <div class="embed-responsive-item" id="flash-player">${toObjectString(attrs, params)}</div>
 
-                                    <video class="embed-responsive-item hidden" id="h5-player">
-                                    </video>
-                                </div>
-                                <div class="video-info hidden-xs" data-video-id="0c6PiRnn6biQ" data-is-owner="no" data-owner="0IuMCaEPbQwA" data-duration="208">
-                                    <div class="video-info-content">
-                                        <h1 class="title">Test</h1>
-                                        <p class="description"></p>
-                                        <p class="creator">Created by <a href="https://ga.vyond.com/user/0IuMCaEPbQwA" title="Tigrus879™">Tigrus879™</a></p>
-                                        <p class="status">
-                                                                                                Published: 10 May 2021                                                                                    </p>
-                                    </div>
-                                </div>
+                            <video class="embed-responsive-item hidden" id="h5-player"></video>
+                        </div>
+                        <div class="video-info hidden-xs" data-video-id="0-13F9yscDHc" data-is-owner="no" data-owner="0yjsQQB5bx50" data-duration="29">
+                            <div class="video-info-content">
+                                <h1 class="title">Test</h1>
+                                <p class="description">this video is ment for testing out this video player &nbsp;while on development.<br>
+<br>
+Copyright (C) Joseph Animate 2021, 2021.</p>
+                                <p class="creator">Created by <a href="https://josephcrosmanplays532.github.io/users/josephanimate2021" title="Joseph Animate 2021">Joseph Animate 2021</a></p>
+                                <p class="status">
+                                                                                Published: 10 May 2021                                                                    </p>
+                            </div>
+                        </div>
                                 <div class="video-loading" id="video-loading">
                                     <div class="video-loading-message"></div>
                                 </div>
