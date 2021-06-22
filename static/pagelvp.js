@@ -258,7 +258,7 @@ if (self !== top) {
 <div class="container">
             <div class="row">
                 <div class="player-container col-sm-7">
-                    <div class="notification browser-no-mse hidden">
+                    <div class="notification using-h5 hidden-xs hidden">
                         <span class="icon glyph-halfling glyph-info-sign"></span>
                         We are optimizing this video to be compatible with your browser, please wait a few minutes then refresh this page. If you encounter any technical problems, switch to our <a data-action="user-opt-out">legacy video player</a>. <a href="https://web.archive.org/web/20191127101703/https://support.vyond.com/hc/en-us/articles/206949976" target="_blank">Learn more.</a>                    </div>
                     <div class="notification browser-no-mse-no-flash hidden">
