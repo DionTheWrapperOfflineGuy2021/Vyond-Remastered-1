@@ -49,8 +49,8 @@ module.exports = function (req, res, url) {
 	res.end(
 	`<link href="https://josephcrosmanplays532.github.io/fonts/1/sailec.css" rel="stylesheet" type="text/css"><link href="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/css/common_combined.css.gz.css" rel="stylesheet" type="text/css"><link rel="stylesheet" href="/html/css/cc.css.gz.css"><script href="/html/themelist/themelistfiles/common_combined.js.gz.js"></script><script>document.title='${title}',flashvars=${JSON.stringify(
 	params.flashvars
-	)}</script><body style="margin:0px">
-	<body>
+	)}</script><script src="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/js/common_combined.js.gz.js"></script>
+	<body style="margin:0px">
 <div class="page-container">
 
 
