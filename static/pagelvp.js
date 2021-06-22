@@ -371,8 +371,8 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
                                         </div>
                                         <div class="default-logo-list-container">
                                             <ul class="logo-list">
-                                                <li data-watermark="0dhteqDBt5nY"><img src=/html/lvpfiles/no_watermark.png"></li>
-                                                <li data-watermark="0vTLbQy9hG7k"><img src="/html/lvpfiles/goanimate.png"></li>
+                                                <li data-watermark="0dhteqDBt5nY"><img src="https://josephcrosmanplays532.github.io/lvp_2019_files/no_watermark.png"></li>
+                                                <li data-watermark="0vTLbQy9hG7k"><img src="https://josephcrosmanplays532.github.io/lvp_2019_files/goanimate.png"></li>
                                             </ul>
                                         </div>
                                         <div class="logo-list-container">
