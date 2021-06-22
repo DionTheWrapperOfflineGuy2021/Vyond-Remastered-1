@@ -200,7 +200,7 @@ if (self !== top) {
                     <span class="icon-bar"></span>
                   </button>
                   <a class="navbar-brand" href="/yourvideos" title="Vyond Remastered">
-                      <img alt="Vyond" src="/html/logo.png">
+                      <img alt="Vyond" src="https://josephcrosmanplays532.github.io/lvp_2019_files/vyond_logo_legacy.png">
                   </a>
             </div>
             <div class="collapse navbar-collapse navbar-ex1-collapse">
