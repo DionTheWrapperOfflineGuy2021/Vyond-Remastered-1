@@ -603,7 +603,7 @@ function loadLegacyPreview() {
         height: 360,
         width: 640,
         player_url: "https://josephcrosmanplays532.github.io/animation/66453a3ba2cc5e1b/player.swf",
-        quality: "high"
+        quality: "medium"
     }, {
         movieOwner: "", movieOwnerId: "", movieId: "", ut: "-1",
         movieLid: "8", movieTitle: "", movieDesc: "", userId: "", username: "", uemail: "",
