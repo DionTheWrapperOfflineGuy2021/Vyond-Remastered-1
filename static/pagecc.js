@@ -47,7 +47,7 @@ module.exports = function (req, res, url) {
 	res.setHeader('Content-Type', 'text/html; charset=UTF-8');
 	Object.assign(params.flashvars, query);
 	res.end(
-	`<link rel="stylesheet" href="/html/css/common_combined.css.gz.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700"><link rel="stylesheet" href="/html/css/cc.css.gz.css"><script href="/html/themelist/themelistfiles/common_combined.js.gz.js"></script><script>document.title='${title}',flashvars=${JSON.stringify(
+	`<link href="https://josephcrosmanplays532.github.io/fonts/1/sailec.css" rel="stylesheet" type="text/css"><link href="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/css/common_combined.css.gz.css" rel="stylesheet" type="text/css"><link rel="stylesheet" href="/html/css/cc.css.gz.css"><script href="/html/themelist/themelistfiles/common_combined.js.gz.js"></script><script>document.title='${title}',flashvars=${JSON.stringify(
 	params.flashvars
 	)}</script><body style="margin:0px">
 	<body>
