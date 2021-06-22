@@ -31,7 +31,7 @@ module.exports = function (req, res, url) {
 			};
 			params = {
 				flashvars: {
-					'apiserver': 'http://localhost/', 'storePath': process.env.STORE_URL + '/<store>', 'ut': 60,
+					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>', 'ut': 60,
 					'autostart': 0, 'isWide': 1, 'clientThemePath': process.env.CLIENT_URL + '/<client_theme>',
 				},
 				allowScriptAccess: 'always',
@@ -95,17 +95,17 @@ module.exports = function (req, res, url) {
 <meta name="google-site-verification" content="K_niiTfCVi72gwvxK00O4NjsVybMutMUnc-ZnN6HUuA">
 
 
-<link href="https://josephcrosmanplays532.github.io/fonts/1/sailec.css" rel="stylesheet" type="text/css">
-<link href="https://web.archive.org/web/20191127101703cs_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/css/common_combined.css.gz.css" rel="stylesheet" type="text/css">
+<link href="/html/lvpfiles/sailec.css" rel="stylesheet" type="text/css">
+<link href="/html/lvpfiles/common_combined.css.gz.css" rel="stylesheet" type="text/css">
 
-<link href="https://web.archive.org/web/20191127101703cs_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/css/watermark.css.gz.css" rel="stylesheet" type="text/css">
-<link href="https://web.archive.org/web/20191127101703cs_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/css/video.css.gz.css" rel="stylesheet" type="text/css">
-<link href="https://web.archive.org/web/20191127101703cs_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/css/video_export.css.gz.css" rel="stylesheet" type="text/css">
-<link href="https://web.archive.org/web/20191127101703cs_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/css/movie_license.css.gz.css" rel="stylesheet" type="text/css">
-<link href="https://web.archive.org/web/20191127101703cs_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/css/video_voice_vendor.css.gz.css" rel="stylesheet" type="text/css">
-<link href="https://web.archive.org/web/20191127101703cs_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/css/bootstrap/bootstrap-tokenfield.min.css.gz.css" rel="stylesheet" type="text/css">
-<link href="https://web.archive.org/web/20191127101703cs_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/css/bootstrap/bootstrap-tokenfield-addon.css.gz.css" rel="stylesheet" type="text/css">
-<link href="https://web.archive.org/web/20191127101703cs_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/css/video_page_worknote.css.gz.css" rel="stylesheet" type="text/css">
+<link href="/html/lvpfiles/watermark.css.gz.css" rel="stylesheet" type="text/css">
+<link href="/html/lvpfiles/video.css.gz.css" rel="stylesheet" type="text/css">
+<link href="/html/lvpfiles/video_export.css.gz.css" rel="stylesheet" type="text/css">
+<link href="/html/lvpfiles/movie_license.css.gz.css" rel="stylesheet" type="text/css">
+<link href="/html/lvpfiles/video_voice_vendor.css.gz.css" rel="stylesheet" type="text/css">
+<link href="/html/lvpfiles/bootstrap-tokenfield.min.css.gz.css" rel="stylesheet" type="text/css">
+<link href="/html/lvpfiles/bootstrap-tokenfield-addon.css.gz.css" rel="stylesheet" type="text/css">
+<link href="/html/lvpfiles/video_page_worknote.css.gz.css" rel="stylesheet" type="text/css">
 <!--[if lt IE 9]>
 <style text="text/css">
 .top-nav.collapse {height: auto;overflow: visible;}
@@ -117,24 +117,24 @@ var srv_tz_os = -5, view_name = "go", user_cookie_name = "u_info";
 var user_role = null;
 </script>
 
-<script src="https://web.archive.org/web/20191127101703js_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/js/common_combined.js.gz.js"></script>
-<script type="text/javascript" src="https://web.archive.org/web/20191127101703js_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/po/goserver_js-en_US.json.gz.json"></script>
+<script src="/html/lvpfiles/common_combined.js.gz.js"></script>
+<script type="text/javascript" src="/html/lvpfiles/goserver_js-en_US.json.gz.json"></script>
 <script type="text/javascript">
 var I18N_LANG = 'en_US';
 var GT = new Gettext({'locale_data': json_locale_data});
 </script>
 
-<script src="https://web.archive.org/web/20191127101703js_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/js/jquery/jquery-ui-1.10.4/jquery.ui.core.min.js.gz.js"></script>
-<script src="https://web.archive.org/web/20191127101703js_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/js/jquery/jquery-ui-1.10.4/jquery.ui.widget.min.js.gz.js"></script>
-<script src="https://web.archive.org/web/20191127101703js_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/js/jquery/jquery-ui-1.10.4/jquery.ui.position.min.js.gz.js"></script>
-<script src="https://web.archive.org/web/20191127101703js_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/js/jquery/jquery-ui-1.10.4/jquery.ui.menu.min.js.gz.js"></script>
-<script src="https://web.archive.org/web/20191127101703js_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/js/jquery/jquery-ui-1.10.4/jquery.ui.autocomplete.min.js.gz.js"></script>
-<script src="https://web.archive.org/web/20191127101703js_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/js/jquery/jquery.waypoints2.min.js.gz.js"></script>
-<script src="https://web.archive.org/web/20191127101703js_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/js/bootstrap/bootstrap-tokenfield.min.js.gz.js"></script>
-<script src="https://web.archive.org/web/20191127101703js_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/js/trial_upsell.js.gz.js"></script>
-<script src="https://web.archive.org/web/20191127101703js_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/js/lib/moment.min.js.gz.js"></script>
-<script src="https://web.archive.org/web/20191127101703js_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/js/country-options.js.gz.js"></script>
-<script src="https://web.archive.org/web/20191127101703js_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/js/amplitude/go_amp.js.gz.js"></script>
+<script src="/html/lvpfiles/jquery.ui.core.min.js.gz.js"></script>
+<script src="/html/lvpfiles/jquery.ui.widget.min.js.gz.js"></script>
+<script src="/html/lvpfiles/jquery.ui.position.min.js.gz.js"></script>
+<script src="/html/lvpfiles/jquery.ui.menu.min.js.gz.js"></script>
+<script src="/html/lvpfiles/jquery.ui.autocomplete.min.js.gz.js"></script>
+<script src="/html/lvpfiles/jquery.waypoints2.min.js.gz.js"></script>
+<script src="/html/lvpfiles/bootstrap-tokenfield.min.js.gz.js"></script>
+<script src="/html/lvpfiles/trial_upsell.js.gz.js"></script>
+<script src="/html/lvpfiles/moment.min.js.gz.js"></script>
+<script src="/html/lvpfiles/country-options.js.gz.js"></script>
+<script src="/html/lvpfiles/go_amp.js.gz.js"></script>
 
 <!-- Vyond Cookie Consent -->
 <script>(function(v,y,o,n){v[n]=v[n]||[];
@@ -373,8 +373,8 @@ if (self !== top) {
                                         </div>
                                         <div class="default-logo-list-container">
                                             <ul class="logo-list">
-                                                <li data-watermark="0dhteqDBt5nY"><img src="https://web.archive.org/web/20191127101703im_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/img/watermark/no_watermark.png"></li>
-                                                <li data-watermark="0vTLbQy9hG7k"><img src="https://web.archive.org/web/20191127101703im_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/img/watermark/vyond.png"></li>
+                                                <li data-watermark="0dhteqDBt5nY"><img src=/html/lvpfiles/no_watermark.png"></li>
+                                                <li data-watermark="0vTLbQy9hG7k"><img src="/html/lvpfiles/goanimate.png"></li>
                                             </ul>
                                         </div>
                                         <div class="logo-list-container">
@@ -493,7 +493,7 @@ if (self !== top) {
                         <button class="toggle-trigger"><span class="glyph-halfling glyph-chevron-down"></span></button>
                         <div class="option-name">Download<br><span class="text-uppercase">Video</span></div>
                         <div class="description">
-                            Up to 1080p Full HD.                            <a class="for-unavailable" href="https://web.archive.org/web/20191127101703/https://www.vyond.com/pricing" target="_blank"><br>View plans</a>
+                            Up to 1080p Full HD.                            <a class="for-unavailable" href="https://www.vyond.com/pricing" target="_blank"><br>View plans</a>
                         </div>
                         <div class="toggle-content"></div>
                         <div class="spin"></div>
@@ -505,7 +505,7 @@ if (self !== top) {
                         <button class="toggle-trigger"><span class="glyph-halfling glyph-chevron-down"></span></button>
                         <div class="option-name">Download<br><span class="text-uppercase">animated GIF</span></div>
                         <div class="description">
-                            Paste your video clip anywhere as a GIF!                            <a class="for-unavailable" href="https://web.archive.org/web/20191127101703/https://www.vyond.com/pricing" target="_blank">View plans</a>
+                            Paste your video clip anywhere as a GIF!                            <a class="for-unavailable" href="https://www.vyond.com/pricing" target="_blank">View plans</a>
                         </div>
                         <div class="toggle-content"></div>
                         <div class="spin"></div>
@@ -518,7 +518,7 @@ if (self !== top) {
                         <button class="toggle-trigger"><span class="glyph-halfling glyph-chevron-down"></span></button>
                         <div class="option-name">Export to<br><span class="text-uppercase">YouTube</span></div>
                         <div class="description for-unavailable">
-                            Available to subscribers only.                            <a class="for-unavailable" href="https://web.archive.org/web/20191127101703/https://www.vyond.com/pricing" target="_blank">View plans</a>
+                            Available to subscribers only.                            <a class="for-unavailable" href="https://www.vyond.com/pricing" target="_blank">View plans</a>
                         </div>
                         <div class="description for-available">
                         </div>
@@ -533,7 +533,7 @@ if (self !== top) {
                         <button class="toggle-trigger"><span class="glyph-halfling glyph-chevron-down"></span></button>
                         <div class="option-name">Export to<br><span class="text-uppercase">Wistia</span></div>
                         <div class="description for-unavailable">
-                            Available to subscribers only.                            <a class="for-unavailable" href="https://web.archive.org/web/20191127101703/https://www.vyond.com/pricing" target="_blank">View plans</a>
+                            Available to subscribers only.                            <a class="for-unavailable" href="https://www.vyond.com/pricing" target="_blank">View plans</a>
                         </div>
                         <div class="description for-available">
                             <div class="for-connect">Connect</div>
@@ -550,7 +550,7 @@ if (self !== top) {
                         <button class="toggle-trigger"><span class="glyph-halfling glyph-chevron-down"></span></button>
                         <div class="option-name">Export to<br><span class="text-uppercase">Vidyard</span></div>
                         <div class="description for-unavailable">
-                            Available to subscribers only.                            <a class="for-unavailable" href="https://web.archive.org/web/20191127101703/https://www.vyond.com/pricing" target="_blank">View plans</a>
+                            Available to subscribers only.                            <a class="for-unavailable" href="https://www.vyond.com/pricing" target="_blank">View plans</a>
                         </div>
                         <div class="description for-available">
                             <div class="for-connect">Connect</div>
@@ -567,7 +567,7 @@ if (self !== top) {
                         <button class="toggle-trigger"><span class="glyph-halfling glyph-chevron-down"></span></button>
                         <div class="option-name">Export to<br><span class="text-uppercase">Vimeo</span></div>
                         <div class="description for-unavailable">
-                            Available to subscribers only.                            <a class="for-unavailable" href="https://web.archive.org/web/20191127101703/https://www.vyond.com/pricing" target="_blank">View plans</a>
+                            Available to subscribers only.                            <a class="for-unavailable" href="https://www.vyond.com/pricing" target="_blank">View plans</a>
                         </div>
                         <div class="description for-available">
                             <div class="for-connect">Connect</div>
@@ -584,7 +584,7 @@ if (self !== top) {
                         <button class="toggle-trigger"><span class="glyph-halfling glyph-chevron-down"></span></button>
                         <div class="option-name">Export to<br><span class="text-uppercase">Vzaar</span></div>
                         <div class="description for-unavailable">
-                            Available to subscribers only.                            <a class="for-unavailable" href="https://web.archive.org/web/20191127101703/https://www.vyond.com/pricing" target="_blank">View plans</a>
+                            Available to subscribers only.                            <a class="for-unavailable" href="https://www.vyond.com/pricing" target="_blank">View plans</a>
                         </div>
                         <div class="description for-available">
                             <div class="for-connect">Connect</div>
@@ -601,7 +601,7 @@ if (self !== top) {
                         <button class="toggle-trigger"><span class="glyph-halfling glyph-chevron-down"></span></button>
                         <div class="option-name">Export to<br><span class="text-uppercase">WeVideo</span></div>
                         <div class="description for-unavailable">
-                            Available to subscribers only.                            <a class="for-unavailable" href="https://web.archive.org/web/20191127101703/https://www.vyond.com/pricing" target="_blank">View plans</a>
+                            Available to subscribers only.                            <a class="for-unavailable" href="https://www.vyond.com/pricing" target="_blank">View plans</a>
                         </div>
                         <div class="description for-available">
                             <div class="for-connect">Connect</div>
@@ -642,16 +642,16 @@ if (self !== top) {
 "/>
 <script>
     var flashPlayerUrl = 'https://josephcrosmanplays532.github.io/animation/66453a3ba2cc5e1b/player.swf',
-        flashPlayerVars = {"movieOwner":"Tigrus879%E2%84%A2","movieOwnerId":"0IuMCaEPbQwA","movieId":"0c6PiRnn6biQ","movieLid":"0","movieTitle":"GoAnimate+Sidestory%3A+Momo+and+Tigrus","movieDesc":"","userId":"","username":"","uemail":"","ut":"-1","numContact":"","apiserver":"https:\/\/web.archive.org\/web\/20191127101703\/https:\/\/ga.vyond.com\/","duration":"208","playcount":1,"thumbnailURL":"https:\/\/web.archive.org\/web\/20191127101703\/https:\/\/assets.vyond.com\/v1\/get\/fs.goanimate.com\/files\/thumbnails\/movie\/2538\/6791538\/25308444L.jpg?enc_type=sse_c&expires=1574936223&sec_key_id=51209&signature=985b0dc7cd794a445a410af1b4626309bab497665e0b03c72c95e02568b881cb","copyable":"0","isPublished":"1","ctc":"go","tlang":"en_US","is_private_shared":"0","autostart":"0","appCode":"go","is_slideshow":"0","originalId":"0zEt_fo4L-5k","is_emessage":"0","storePath":"https:\/\/web.archive.org\/web\/20191127101703\/https:\/\/d3v4eglovri8yt.cloudfront.net\/store\/3a981f5cb2739137\/<store>","clientThemePath":"https:\/\/web.archive.org\/web\/20191127101703\/https:\/\/d3v4eglovri8yt.cloudfront.net\/static\/42b647c9ee145b1e\/<client_theme>","animationPath":"https:\/\/web.archive.org\/web\/20191127101703\/https:\/\/d3v4eglovri8yt.cloudfront.net\/animation\/66453a3ba2cc5e1b\/","isEmbed":"0","refuser":null,"utm_source":null,"uid":null,"isTemplate":"0","showButtons":"1","chain_mids":"","averageRating":"0","ratingCount":"0","fb_app_url":"https:\/\/web.archive.org\/web\/20191127101703\/https:\/\/ga.vyond.com\/","ad":1,"endStyle":0,"isWide":"1","pwm":1,"s3base":"https:\/\/web.archive.org\/web\/20191127101703\/https:\/\/s3.amazonaws.com\/fs.goanimate.com\/,https:\/\/assets.vyond.com\/","initcb":"flashPlayerLoaded","showshare":false},
+        flashPlayerVars = ${JSON.stringify(params.flashvars)},
         h5PlayerElem = null,
         sceneDetails = {};
 </script>
 
-<script src="https://web.archive.org/web/20191127101703js_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/js/h5preview/media-controller.js.gz.js"></script>
-<script src="https://web.archive.org/web/20191127101703js_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/js/video_page.js.gz.js"></script>
-<script src="https://web.archive.org/web/20191127101703js_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/js/video_page_worknote.js.gz.js"></script>
-<script src="https://web.archive.org/web/20191127101703js_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/js/video_page_player.js.gz.js"></script>
-<script src="https://web.archive.org/web/20191127101703js_/https://d3v4eglovri8yt.cloudfront.net/static/42b647c9ee145b1e/go/js/video_page_player_control.js.gz.js"></script>
+<script src="/html/lvpfiles/media-controller.js.gz.js"></script>
+<script src="/html/lvpfiles/video_page.js.gz.js"></script>
+<script src="/html/lvpfiles/video_page_worknote.js.gz.js"></script>
+<script src="/html/lvpfiles/video_page_player.js.gz.js"></script>
+<script src="/html/lvpfiles/video_page_player_control.js.gz.js"></script>
 <script>
     var videoPage = new VideoPage("0c6PiRnn6biQ"),
         previewPlayer,
