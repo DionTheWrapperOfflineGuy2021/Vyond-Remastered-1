@@ -84,8 +84,9 @@ module.exports = function (req, res, url) {
         e.stopPropagation();
     });
 </script>
+
 <li class="dropdown">
-    <a class="dropdown-toggle" href="/account" aria-expanded="false">
+    <a class="dropdown-toggle" href="/account" data-toggle="dropdown" aria-expanded="false">
         <span class="hidden-sm hidden-md hidden-lg">Your Account</span>
         <div class="site-nav__profile-image">
             <div class="badge-circle">U</div>
@@ -95,12 +96,13 @@ module.exports = function (req, res, url) {
         <li class="dropdown-user-profile">
             <div class="dropdown-user-profile__display-name">
                 You            </div>
-        </li><li class="divider"></li>
+            
+        </li>
         <li class="divider"></li>
         <li><a href="/account">Account Settings</a></li>
+        
         <li class="divider"></li>
         <li><a class="logout-link gtm-logout" href="/logoff">Logout</a></li>
-        <li class="divider"></li>
     </ul>
 </li>
 
