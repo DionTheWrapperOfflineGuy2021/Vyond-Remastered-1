@@ -45,7 +45,7 @@
 				"Content-Type": "text/html; charset=UTF-8"
 			}
 		},
-		"ajax/(.*)": {
+		"ajax/getMovieShare/(.*)": {
 			"headers": {
 				"Content-Type": "text/html; charset=UTF-8"
 			}
