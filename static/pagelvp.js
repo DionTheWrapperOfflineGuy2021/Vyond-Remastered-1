@@ -509,7 +509,7 @@ jQuery('#playerdiv').flash({
 
     hasVersion: "10.3",
 
-    flashvars: ${JSON.stringify(params.flashvars)}
+    flashvars: ${JSON.stringify(params.flashvars)}});
 
 jQuery('#player-overlay-dismiss').click(function() {
     jQuery('#player-overlay').hide();
