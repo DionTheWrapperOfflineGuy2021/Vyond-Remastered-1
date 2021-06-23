@@ -31,18 +31,17 @@ module.exports = function (req, res, url) {
 			};
 			params = {
 				flashvars: {
-					'movieOwner': 'USER+RETIRED', 'movieOwnerId': '0vPLkFi4Y7kw', 'movieId': 'm-0', 'movieLid': '0', 
-					'movieTitle': 'Butler+Sues+His+Parents+%28Series+Finale%29', 'movieDesc': 'Credit+to+everyone.+This+is+my+final+Butler+Video.',
-					'userId': '', 'username': '', 'uemail': '', 'ut': '-1', 'numContact': '', 'apiserver': '/', 'duration': '140', 'playcount': 1,
-					'thumbnailURL': 'https:\/\/s3.amazonaws.com\/fs.goanimate.com\/files\/thumbnails\/movie\/1217\/1588217\/20774464L.jpg', 
-					'copyable': '0', 'isPublished': '1', 'ctc': 'go', 'tlang': 'en_US', 'is_private_shared': '0', 'autostart': '0', 'appCode': 
-					'go', 'is_slideshow': '0', 'originalId': '0zEt_fo4L-5k', 'is_emessage': '0', 
-					'storePath': process.env.STORE_URL + '/<store>',
-					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>',
+                                        'movieOwner': 'LindNel13', 'movieOwnerId': '0ebQWccvfxlY', 'movieId': '', 'movieLid': '0', 'movieTitle': 'election', 
+					'movieDesc': '', 'userId': '', 'username': '', 'uemail': '', 'ut': '-1', 'numContact': '', 'apiserver': '/', 'duration': '17',
+					'playcount': 1, 
+					'thumbnailURL': 'https:\/\/s3.amazonaws.com\/fs.goanimate.com\/files\/thumbnails\/movie\/876\/5682876\/13801618L.jpg',
+					'copyable': '0', 'isPublished': '1', 'ctc': 'go', 'tlang': 'en_US', 'is_private_shared': '0', 'autostart': '0', 
+					'appCode': 'go', 'is_slideshow': '0', 'originalId': '0zEt_fo4L-5k', 'is_emessage': '0', 
+					'storePath': process.env.STORE_URL + '/<store>', 'clientThemePath': process.env.CLIENT_URL + '/<client_theme>',
 					'animationPath': process.env.SWF_URL + '/', 'isEmbed': '0', 'refuser': null, 'utm_source': null, 'uid': null, 
-					'isTemplate': '0', 'showButtons': '1', 'chain_mids': '', 'averageRating': 5, 'ratingCount': '19', 'fb_app_url': '/', 'ad': 1,
-					'endStyle': 0, 'isWide': '1', 'pwm': 1, 's3base': 'https://s3.amazonaws.com/fs.goanimate.com/,https://assets.vyond.com/',
-					'initcb': 'flashPlayerLoaded', 'showshare': false,
+					'isTemplate': '0', 'showButtons': '1', 'chain_mids': '', 'averageRating': '0', 'ratingCount': '0', 'fb_app_url': '/', 'ad': 1,
+					'endStyle': 0, 'isWide': 0, 'pwm': 1, 's3base': 'https://s3.amazonaws.com/fs.goanimate.com/,http://assets.vyond.com/',
+					'initcb': 'playerLoaded', 'free_trial': 1, 'showshare': false,
 				},
 
 				allowScriptAccess: 'always',
@@ -69,35 +68,34 @@ module.exports = function (req, res, url) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <meta name="title" content="Test - Joseph Animate 2021">
-<meta name="description" content="Watch the video: Test by Joseph Animate 2021 on Joseph Animate Awesome Domain">
-<link rel="canonical" href="https://josephcrosmanplays532.github.io/videos/0-13F9yscDHc">
-<link rel="image_src" href="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/20077390.jpg">
-<link rel="video_src" href="https://josephcrosmanplays532.github.io/player/swf/0-13F9yscDHc">
-<meta name="video_height" content="309">
+<meta name="description" content="Watch the video: Test by Joseph Animate 2021 on GoAnimate.">
+<link rel="canonical" href="https://vyond2018.herokuapp.com/videos/?movieId=m-16">
+<link rel="image_src" href="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/movie/876/5682876/13801618.jpg">
+<link rel="video_src" href="https://josephcrosmanplays532.github.io/player/swf/m-16">
+<meta name="video_height" content="354">
 <meta name="video_width" content="550">
 <meta name="video_type" content="application/x-shockwave-flash">
 <meta name="medium" content="video">
 
 <meta property="og:type" content="article">
-<meta property="og:title" content="Test">
-<meta property="og:description" content="This video is ment for testing out this video player during development.
-Copyright (C) Joseph Animate 2021, 2021.">
-<meta property="og:url" content="https://josephcrosmanplays532.github.io/videos/0-13F9yscDHc">
-<meta property="og:image" content="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/20077390L.jpg">
+<meta property="og:title" content="election">
+<meta property="og:description" content="">
+<meta property="og:url" content="https://vyond2018.herokuapp.com/videos/?movieId=m-16">
+<meta property="og:image" content="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/movie/876/5682876/13801618L.jpg">
 
-<meta property="og:video" content="https://josephcrosmanplays532.github.io/player/swf/0-13F9yscDHc">
-<meta property="og:video:height" content="309">
+<meta property="og:video" content="https://josephcrosmanplays532.github.io/player/swf/m-16">
+<meta property="og:video:height" content="354">
 <meta property="og:video:width" content="550">
 <meta property="og:video:type" content="application/x-shockwave-flash">
 
-<link rel="alternate" type="application/json+oembed" href="https://josephcrosmanplays532.github.io/api/oembed?url=http%3A%2F%2Fgoanimate.com%2Fvideos%2F0-13F9yscDHc&amp;format=json">
-<link rel="alternate" type="text/xml+oembed" href="https://josephcrosmanplays532.github.io/api/oembed?url=http%3A%2F%2Fgoanimate.com%2Fvideos%2F0-13F9yscDHc&amp;format=xml">
+<link rel="alternate" type="application/json+oembed" href="https://josephcrosmanplays532.github.io/api/oembed?url=http%3A%2F%2Fgoanimate.com%2Fvideos%2F0-1BF1m2VKQA&amp;format=json">
+<link rel="alternate" type="text/xml+oembed" href="https://josephcrosmanplays532.github.io/api/oembed?url=http%3A%2F%2Fgoanimate.com%2Fvideos%2F0-1BF1m2VKQA&amp;format=xml">
 
 <meta name="twitter:card" content="player">
 <meta name="twitter:title" content="Test - Joseph Animate 2021">
-<meta name="twitter:description" content="Watch the video: Test by Joseph Animate 2021 on Joseph Animate Awesome Domain.">
-<meta name="twitter:image:src" content="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/20077390L.jpg">
-<meta name="twitter:player" content="https://josephcrosmanplays532.github.io/player/embed/0-13F9yscDHc">
+<meta name="twitter:description" content="Watch the video: Test by Joseph Animate 2021 on GoAnimate.">
+<meta name="twitter:image:src" content="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/movie/876/5682876/13801618L.jpg">
+<meta name="twitter:player" content="https://josephcrosmanplays532.github.io/player/embed/m-16">
 <meta name="twitter:player:height" content="349">
 <meta name="twitter:player:width" content="620">
 
@@ -106,22 +104,23 @@ Copyright (C) Joseph Animate 2021, 2021.">
 
 <meta name="google-site-verification" content="K_niiTfCVi72gwvxK00O4NjsVybMutMUnc-ZnN6HUuA">
 
-<link rel="alternate" href="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/GoAnimate" type="application/rss+xml" title="GoAnimate Blog">
-<link rel="alternate" href="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/GoAnimate/WhatsNew" type="application/rss+xml" title="GoAnimate - Recently Released Content">
-<link rel="alternate" href="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/GoAnimate/MostWatched" type="application/rss+xml" title="GoAnimate - Most Watched">
+<link rel="alternate" href="https://web.archive.org/web/20160123121200/http://feeds.feedburner.com/GoAnimate" type="application/rss+xml" title="GoAnimate Blog">
+<link rel="alternate" href="https://web.archive.org/web/20160123121200/http://feeds.feedburner.com/GoAnimate/WhatsNew" type="application/rss+xml" title="GoAnimate - Recently Released Content">
+<link rel="alternate" href="https://web.archive.org/web/20160123121200/http://feeds.feedburner.com/GoAnimate/MostWatched" type="application/rss+xml" title="GoAnimate - Most Watched">
 
-<link href="https://josephcrosmanplays532.github.io/lvp_2019_files/sailec.css" rel="stylesheet" type="text/css">
-<link href="https://josephcrosmanplays532.github.io/lvp_2019_files/common_combined.css.gz.css" rel="stylesheet" type="text/css">
+<link href="//web.archive.org/web/20160123121200cs_/http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/common_combined.css" rel="stylesheet" type="text/css">
 
-<link href="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/upsell_modals.css" rel="stylesheet" type="text/css">
-<link href="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/watermark.css" rel="stylesheet" type="text/css">
-<link href="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/video.css" rel="stylesheet" type="text/css">
-<link href="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/video_export.css" rel="stylesheet" type="text/css">
-<link href="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/movie_license.css" rel="stylesheet" type="text/css">
-<link href="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/video_voice_vendor.css" rel="stylesheet" type="text/css">
-<link href="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/bootstrap-tokenfield.min.css" rel="stylesheet" type="text/css">
-<link href="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/bootstrap-tokenfield-addon.css" rel="stylesheet" type="text/css">
-<link href="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/video_page_worknote.css" rel="stylesheet" type="text/css">
+<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/upsell_modals.css" rel="stylesheet" type="text/css">
+<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/watermark.css" rel="stylesheet" type="text/css">
+<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/video.css" rel="stylesheet" type="text/css">
+<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/videos.css" rel="stylesheet" type="text/css">
+<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/video_export.css" rel="stylesheet" type="text/css">
+<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/movie_license.css" rel="stylesheet" type="text/css">
+<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/video_voice_vendor.css" rel="stylesheet" type="text/css">
+<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/bootstrap/bootstrap-tokenfield.min.css" rel="stylesheet" type="text/css">
+<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/bootstrap/bootstrap-tokenfield-addon.css" rel="stylesheet" type="text/css">
+<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/worknote.css" rel="stylesheet" type="text/css">
 <!--[if lt IE 9]>
 <style text="text/css">
 .top-nav.collapse {height: auto;overflow: visible;}
@@ -129,30 +128,28 @@ Copyright (C) Joseph Animate 2021, 2021.">
 <![endif]-->
 
 <script>
-var srv_tz_os = -4, view_name = "go", user_cookie_name = "u_info";
-var user_role = null;
+var srv_tz_os = -5, view_name = "go", user_cookie_name = "u_info";
 </script>
 
-<script src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/common_combined.js"></script>
-<script type="text/javascript" src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/goserver_js-en_US.json"></script>
+<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/common_combined.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/po/goserver_js-en_US.json"></script>
 <script type="text/javascript">
 var I18N_LANG = 'en_US';
 var GT = new Gettext({'locale_data': json_locale_data});
 </script>
 
-<script src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/jquery.ui.core.min.js"></script>
-<script src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/jquery.ui.widget.min.js"></script>
-<script src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/jquery.ui.position.min.js"></script>
-<script src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/jquery.ui.menu.min.js"></script>
-<script src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/jquery.ui.autocomplete.min.js"></script>
-<script src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/bootstrap-tokenfield.min.js"></script>
-<script src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/trial_upsell.js"></script>
-<script src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/moment.min.js"></script>
-<script src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/country-options.js"></script>
-<script src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/video_export.js"></script>
+<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/jquery/jquery-ui-1.10.4/jquery.ui.core.min.js"></script>
+<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/jquery/jquery-ui-1.10.4/jquery.ui.widget.min.js"></script>
+<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/jquery/jquery-ui-1.10.4/jquery.ui.position.min.js"></script>
+<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/jquery/jquery-ui-1.10.4/jquery.ui.menu.min.js"></script>
+<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/jquery/jquery-ui-1.10.4/jquery.ui.autocomplete.min.js"></script>
+<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/bootstrap/bootstrap-tokenfield.min.js"></script>
+<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/trial_upsell.js"></script>
+<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/lib/moment.min.js"></script>
+<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/country-options.js"></script>
 
 
-<script type="text/javascript" src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/recaptcha_ajax.js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
 
 <!-- Google Tag Manager -->
 <script>
@@ -169,13 +166,44 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <script type="text/javascript">
+    dataLayer.push({
+        'event': 'loadUniversalAnalytics'
+    });
+        dataLayer.push({
+            'event': 'create'
+        });
 
+dataLayer.push({
+    'event': 'pageLoad'
+});
 </script>
+
+
+
+<!-- Facebook TAG -->
+<script>(function() {
+    var _fbq = window._fbq || (window._fbq = []);
+    if (!_fbq.loaded) {
+        var fbds = document.createElement('script');
+        fbds.async = true;
+        fbds.src = '//connect.facebook.net/en_US/fbds.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(fbds, s);
+        _fbq.loaded = true;
+    }
+    _fbq.push(['addPixelId', '689859554455701']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=689859554455701&amp;ev=PixelInitialized"/></noscript>
+<!-- Facebook TAG -->
+
 
 <link href="https://plus.google.com/+goanimate" rel="publisher">
 
 <!-- Start of goanimate Zendesk Widget script -->
-<script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(c){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("//web.archive.org/web/20160412001103/http://assets.zendesk.com/embeddable_framework/main.js","goanimate.zendesk.com");/*]]>*/</script>
+<script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(c){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("//web.archive.org/web/20160123121200/http://assets.zendesk.com/embeddable_framework/main.js","goanimate.zendesk.com");/*]]>*/</script>
 <!-- End of goanimate Zendesk Widget script -->
 
 <script type="text/javascript">
@@ -288,7 +316,7 @@ var utmUtil = (function() {
     };
 }());
 </script>
-<script src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/go_amp.js"></script>
+<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/amplitude/go_amp.js"></script>
 <script>
 // Page view.
 var utmParameters = utmUtil.getUTMParameters(),
@@ -311,17 +339,16 @@ loginStatus = AMPLITUDE_EVENT_PROPERTIES.NO;amplitudeTrackEvent(
 <!-- Google Knowledge Graph -->
 <script type="application/ld+json">
 {
-    "@context": "https://web.archive.org/web/20160412001103/http://schema.org",
+    "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "GoAnimate",
-    "url": "https://web.archive.org/web/20160412001103/http://goanimate.com",
-    "logo": "https://web.archive.org/web/20160412001103/http://gawpstorage.s3.amazonaws.com/img/google_knowledge_graph_logo.jpg",
+    "name": "VyondRemastered",
+    "url": "https://vyondremastered1.herokuapp.com",
+    "logo": "https://gawpstorage.s3.amazonaws.com/img/google_knowledge_graph_logo.jpg",
     "sameAs": [
-        "https://web.archive.org/web/20160412001103/http://www.facebook.com/GoAnimateInc",
-        "https://web.archive.org/web/20160412001103/http://twitter.com/GoAnimate",
-        "https://web.archive.org/web/20160412001103/http://www.linkedin.com/company/goanimate",
-        "https://web.archive.org/web/20160412001103/http://plus.google.com/+goanimate",
-        "https://web.archive.org/web/20160412001103/http://www.youtube.com/user/GoAnimate"
+        "https://www.facebook.com/GoAnimateInc",
+        "https://twitter.com/GoAnimate",
+        "https://www.linkedin.com/company/goanimate",
+        "https://www.youtube.com/user/GoAnimate"
     ]
 }
 </script>
@@ -355,14 +382,15 @@ if (self !== top) {
 </script>
 
 <script type="text/javascript">
-        jQuery.extend(CCStandaloneBannerAdUI, {"actionshopSWF":"https:\/\/web.archive.org\/web\/20160412001103\/http:\/\/lightspeed.goanimate.com\/animation\/a6a59f12d985fe21\/actionshop.swf","apiserver":"https:\/\/web.archive.org\/web\/20160412001103\/http:\/\/goanimate.com\/","clientThemePath":"https:\/\/web.archive.org\/web\/20160412001103\/http:\/\/lightspeed.goanimate.com\/static\/6a882951f9649a88\/<client_theme>","userId":""});
+        jQuery.extend(CCStandaloneBannerAdUI, {"actionshopSWF":"https:\/\/web.archive.org\/web\/20160123121200\/http:\/\/lightspeed.goanimate.com\/animation\/4bd9a7c97397c789\/actionshop.swf","apiserver":"https:\/\/web.archive.org\/web\/20160123121200\/http:\/\/goanimate.com\/","clientThemePath":"https:\/\/web.archive.org\/web\/20160123121200\/http:\/\/lightspeed.goanimate.com\/static\/e15535186b40e6eb\/<client_theme>","userId":""});
 </script>
 
 <div class="page-container">
 
 
 <div class="site-header">
-    <div class="navbar site-nav site-nav--legacy" role="navigation">
+    <div class="navbar site-nav" role="navigation">
+        <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -370,48 +398,43 @@ if (self !== top) {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="/yourvideos" title="Vyond Remastered">
-                      <img alt="Vyond" src="https://josephcrosmanplays532.github.io/lvp_2019_files/vyond_logo_legacy.png">
-                  </a>
+                <a class="navbar-brand" href="https://vyondremastered1.herokuapp.com/" title="Vyond Remastered">
+                    <img alt="Make a Video Online with GoAnimate.com" src="/html/logo.png">
+                </a>
             </div>
+
             <div class="collapse navbar-collapse navbar-ex1-collapse">
+                
                 <ul class="nav navbar-nav navbar-right">
-<li class="dropdown">
-    <a class="dropdown-toggle" href="" data-toggle="dropdown">Help<span class="dropdown-caret"></span></a>
-    <ul class="dropdown-menu dropdown-menu-help">
-        <li>
-            <a href="https://discord.gg/YYFenX5Fep">Help Center</a>
-        </li>
-    </ul>
-</li>
-         <li>
-                        <a class="hidden-sm hidden-md hidden-lg" href="/videomaker">Make a Video</a>
-                        <span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="/videomaker">Make a Video</a></span>
+                                    <li><a href="https://josephcrosmanplays532.github.io/signup">Free Trial</a></li>
+                    <li><a href="https://josephcrosmanplays532.github.io/login">Login</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="https://josephcrosmanplays532.github.io/videos" data-toggle="dropdown">Explore <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://resources.vyond.com/">Resources</a></li>
+                            <li><a href="https://blog.vyond.com/">Blog</a></li>
+                            <li><a href="https://josephcrosmanplays532.github.io/videos">Featured Videos</a></li>
+                            <li><a href="https://josephcrosmanplays532.github.io/features">Features</a></li>
+                            <li><a href="https://support.vyond.com/">Help Center</a></li>
+                        </ul>
                     </li>
-<li class="dropdown">
-    <a class="dropdown-toggle" href="/account" data-toggle="dropdown" aria-expanded="false">
-        <span class="hidden-sm hidden-md hidden-lg">Your Account</span>
-        <div class="site-nav__profile-image">
-            <div class="badge-circle">U</div>
-        </div><span class="dropdown-caret"></span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-user">
-        <li class="dropdown-user-profile">
-            <div class="dropdown-user-profile__display-name">
-                You            </div>
-            
-        </li>
-        <li class="divider"></li>
-        <li><a href="/account">Account Settings</a></li>
-        
-        <li class="divider"></li>
-        <li><a class="logout-link gtm-logout" href="/logoff">Logout</a></li>
-    </ul>
-</li>
+                                    <li class="plans-and-pricing">
+                        <a href="https://josephcrosmanplays532.github.io/business/videoplans/?hook=header_button.site">Plans &amp; Pricing</a>
+                    </li>
+                    <li>
+                        <a class="hidden-sm hidden-md hidden-lg" href="https://josephcrosmanplays532.github.io/videomaker">Make a Video</a>
+                        <span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="https://josephcrosmanplays532.github.io/videomaker">Make a Video</a></span>
+                    </li>
                 </ul>
             </div>
+
+            <div class="noti_tooltips_container"></div>
+        </div>
     </div>
 </div>
+    <script>var notiTooltips = new NotificationTooltips($('#idxNotibtn'));</script>
+
+
 <script>
     jQuery('.logout-link').click(function(){
         amplitudeTrackEvent(AMPLITUDE_EVENT.LOGOUT, null);
@@ -420,548 +443,287 @@ if (self !== top) {
 
 <!-- END OF HEADER -->
 <div id="video-page">
-    <input type="hidden" name="ct" value="JX_2ajxFPOeYO1c3yxC2CgBsvuq3YZCz5ddxHA96+a5i4ByB7221uzDjpVzvISiX1w9bxiHqIgibQTP5ODmyNErtibZ461kVlN+R8jOTy2EDw6w+rL1HomQYkvp5xotqVLtopIjNrGBRaQ2Psz8moyheCkABF_BQrH6ia55oYYVDJ6yI19AUSSbm_vnQAcFooMww2ZvZmqkLV4clZTPsqJS_cQCprHbRFybt94Gl4uz07e"/>
-    <div class="background">
-        <div class="thumbnail-container" style="background-image:url('https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/20077390L.jpg')">
-            <div class="thumbnail-overlay"></div>
+<div class="video-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 video-left">
+                <div class="status-container">
+                    <div class="vthumb-container">
+                        <div class="vthumb">
+                            <div class="vthumb-clip"><div class="vthumb-clip-inner"><span class="valign"></span><img src="https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/movie/876/5682876/13801618.jpg" alt="election"></div></div>
+                        </div>
+                    </div>
+                    <div class="status public">
+                        <span class="draft-text">Draft</span>
+                        <span class="unlisted-text">Unlisted</span>
+                        <span class="private-text">Private</span>
+                        <span class="public-text">Public</span>
+                    </div>
+                </div>
+                <div class="video-top-content clearfix">
+                    <div class="pull-left video-info">
+                        <h1>election</h1>
+                        By <a href="https://josephcrosmanplays532.github.io/users/josephanimate2021" title="Joseph Animate 2021">Joseph Animate 2021</a>                     </div>
+                    <div class="video-top-status">
+                            </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <ul class="video-top-nav">
+                        <li class="static"><a title="Views"><span class="icon views"></span> <span class="num">1</span></a></li>
+                        </ul>
+            </div>
         </div>
- <div class="container">
-            <div class="main">
-                <div class="player-container col-sm-7">
-                    <div class="notification using-h5 hidden-xs hidden">
-                        <span class="icon glyph-halfling glyph-info-sign"></span>
-                        Wellcome to the revival of vyond's old video player called the lvp! Play your video and the info on the video will get removed. don't worry, i swaped the defaults of the video player and the legacy video player is the default one. you don't have to do anything with it. i got it under control.                    </div>
-                    <div class="notification using-flash hidden-xs">
-                        <span class="icon glyph-halfling glyph-info-sign"></span>
-                        Wellcome to the revival of vyond's old video player called the lvp! Play your video and the info on the video will get removed. don't worry, i swaped the defaults of the video player and the legacy video player is the default one. you don't have to do anything with it. i got it under control.                    </div>
-                    <div class="notification browser-no-mse hidden">
-                        <span class="icon glyph-halfling glyph-info-sign"></span>
-                        We are optimizing this video to be compatible with your browser, please wait a few minutes then refresh this page. <a href="https://support.vyond.com/hc/en-us/articles/206949976" target="_blank">Learn more.</a>                    </div>
-                    <div class="video-player-viewport using-flash" style="background-image: url('https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/20077390L.jpg');">
-                        <div class="video-player-wrapper embed-responsive embed-responsive-16by9">
-                            <div class="embed-responsive-item" id="flash-player">${toObjectString(attrs, params)}</div>
+    </div>
+</div>
+<div class="video-main">
+<div class="container">
+        <div class="video-main-content">
+            <div class="video-header clearfix noshow">
+            </div>
 
-                            <video class="embed-responsive-item hidden" id="h5-player"></video>
-                        </div>
-                        <div class="video-info hidden-xs" data-video-id="0-13F9yscDHc" data-is-owner="no" data-owner="0yjsQQB5bx50" data-duration="29">
-                            <div class="video-info-content">
-                                <h1 class="title">Test</h1>
-                                <p class="description">this video is ment for testing out this video player &nbsp;while on development.<br>
-<br>
-Copyright (C) Joseph Animate 2021, 2021.</p>
-                                <p class="creator">Created by <a href="https://josephcrosmanplays532.github.io/users/josephanimate2021" title="Joseph Animate 2021">Joseph Animate 2021</a></p>
-                                <p class="status">
-                                                                                Published: 10 May 2021                                                                    </p>
-                            </div>
-                        </div>
-                        <div id="player-control" style="display: block;">
-                            <div class="playback-button paused">
-                                <span class="glyph-pro glyph-play"></span>
-                                <span class="glyph-pro glyph-pause"></span>
-                                <span class="glyph-pro glyph-repeat"></span>
-                            </div>
-                            <div class="seek-bar-container">
-                                <div class="seek-bar">
-                                    <div class="buffered-bar"></div>
-                                    <div class="played-bar"></div>
-                                    <div class="duration-tooltip">00:29</div>
-                                    <div class="time-tooltip"></div>
-                                </div>
-                            </div>
-                            <div class="controls-right">
-                                <div class="volume-control">
-                                    <span class="volume-icon glyph-pro glyph-volume-up"></span>
-                                    <span class="volume-icon glyph-pro glyph-mute"></span>
-                                    <div class="volume-slider">
-                                        <div class="slider-track">
-                                            <div class="track-value-bar"></div>
-                                        </div>
-                                        <div class="slider-thumb"></div>
-                                    </div>
-                                </div>
-                                <div class="fullscreen-button">
-                                    <span class="fullscreen-button-icon"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="video-loading" id="video-loading" style="display: none;">
-                            <div class="video-loading-message"></div>
-                        </div>
-                    </div>
-                    <div id="context-menu" class="hidden">
-                        <div class="click-disabler"></div>
-                        <ul>
-                            <li data-player-action="play">Play / Pause</li>
-                            <li class="divider"></li>
-                            <li data-player-action="copyUrl">Copy video URL</li>
-                                <li data-player-action="copyEmbedCode">Copy embed code</li>
-                            </ul>
-                    </div>
-                </div>
-             <div class="sidebar col-sm-5 hidden-xs">
-                    <div class="row panel-container">
-                        <div class="setting-panels">
-                            <div class="main-panel">
-                                <div class="setting-title"><span class="glyph-pro glyph-show-thumbnails_with_lines"></span> Settings</div>
-                                <ul class="setting-items">
-    
-    
-    
-    
-    
-    
-                                    </ul>
-                            </div>
-                            <div class="sub-panel">
-                                <div class="panel-item logo-panel">
-                                    <div class="panel-title">
-                                        <span class="glyph-pro glyph-chevron-left"></span><span class="text">Logo</span>
-                                    </div>
-                                    <div class="list-container">
-                                        <div class="panel-info">
-                                            Want to use a brand new logo?<br/>
-                                            <a href="https://josephcrosmanplays532.github.io/account/logo">
-                                                Go to Account settings &gt;
-                                            </a>
-                                        </div>
-                                        <div class="default-logo-list-container">
-                                            <ul class="logo-list">
-                                                <li data-watermark="0dhteqDBt5nY"><img src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/no_watermark.png"></li>
-                                                <li data-watermark="0vTLbQy9hG7k"><img src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/goanimate.png"></li>
-                                            </ul>
-                                        </div>
-                                        <div class="logo-list-container">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="panel-item history-panel">
-                                    <div class="panel-title">
-                                        <span class="glyph-pro glyph-chevron-left"></span><span class="text">Revision history</span>
-                                    </div>
-                                    <div class="list-container"></div>
-                                </div>
-                                <div class="panel-item notes-panel">
-                                    <div class="panel-title">
-                                        <span class="glyph-pro glyph-chevron-left"></span><span class="text">Notes</span>
-                                    </div>
-                                    <div class="list-container"></div>
-                                </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <div class="video-content">
+                <div class="player-container">
+<meta name="medium" content="video"/>
+<div style="position:relative">
+    <div id="playerdiv" align="center" style="width:620px;height:349px;">
+        This content requires the Adobe Flash Player 10.3. <a href="https://get.adobe.com/flashplayer/">Get Flash</a>
     </div>
-    <div class="intro-banner">
-        <div>Welcome to Vyond Remastered! Create cartoons excatly the way you want!</div>
-        <div><a data-wistia="qx668jjl2e" class="btn-sm btn-dark play-btn home-video-play"><span class="glyph-pro glyph-play-button"></span> Demo</a></div>
     </div>
-    <!-- Video player container -->
-    <div class="modal" id="sample-video-modal">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="video-modal-content" id="sample-video-player"></div>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script charset="ISO-8859-1" src="//josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/E-v1.js" async></script>
-    <script>
-    $(document).on('click', '.play-btn', function(e) {
-        var hashId = $(this).data('wistia');
-        if (!hashId) return;
-        $('#sample-video-player').html('<div class="wistia_embed wistia_async_' + hashId + ' autoPlay=true" ></div>');
-        $('#sample-video-modal').modal({keyboard: true, backdrop: true}).on('hidden.bs.modal', function() {
-            $('#sample-video-player').empty();
-        });
-        amplitudeTrackEvent(AMPLITUDE_EVENT.WATCH_DEMO_ON_VIDEO_PAGE);
-    });
-    </script>
-    <div class="settings headline visible-xs">
-        <div class="container">
-            <h1 class="video-title">Test</h1>
-            Created by <a href="https://josephcrosmanplays532.github.io/users/josephanimate2021" title="Joseph Animate 2021">Joseph Animate 2021</a>        </div>
-    </div>
-    <div class="settings privacy public hidden-xs">
-        <div class="container">
-            <div class="row settings-row">
-                <div class="col-sm-2">
-                    <div class="settings-label hidden-xs">Share this video:</div>
-                </div>
-                <div class="col-sm-8">
-                    <div class="using-draft"><span class="icon glyph-pro glyph-lock inline"></span>Draft</div>
-                    <div class="using-private"><span class="icon glyph-pro glyph-lock inline"></span>Private</div>
-                    <div class="using-public"><span class="icon glyph-pro glyph-unlock inline"></span>Public</div>
-                </div>
-            </div>
-        </div>
-        <div id="autosave-overlay" class="modal">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button class="close" type="button" data-dismiss="modal" aria-hidden="true">×</button>
-                        <h3 class="modal-title">Your video was autosaved</h3>
-                    </div>
-                    <div class="modal-body">
-                        <span class="autosave-message"></span>
-                        <a class="history-toggle" data-dismiss="modal">View revision history.</a>
-                    </div>
-                    <div class="modal-footer">
-                        <button class="btn btn-default text-uppercase" onclick="fullscreenStudio('/videomaker/full/editcheck/m-0');">Manually saved</button>
-                        <button class="load-autosave btn btn-default btn-orange text-uppercase">Load autosaved</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<script type="text/javascript">
+var playerApiReady = false;
+function playerLoaded() {
+    playerApiReady = true;
+    jQuery(document).trigger('playerApiReady');
+};
+jQuery('#playerdiv').flash({
+    id: "Player",
+    swf: "https://josephcrosmanplays532.github.io/animation/4bd9a7c97397c789/player.swf",
+    height: 349,
+    width: 620,
+    bgcolor: "#000000",
+    scale: "exactfit",
+    allowScriptAccess: "always",
+    allowFullScreen: "true",
+    wmode: "opaque",
 
-    <div class="settings social grey">
-        <div class="container">
-            <div class="row settings-row">
-                <div class="col-sm-2">
-                    <div class="settings-label hidden-xs">Copy URL:</div>
+    hasVersion: "10.3",
+
+    flashvars: {"movieOwner":"LindNel13","movieOwnerId":"0ebQWccvfxlY","movieId":"0-1BF1m2VKQA","movieLid":"0","movieTitle":"election","movieDesc":"","userId":"","username":"","uemail":"","ut":"-1","numContact":"","apiserver":"https:\/\/web.archive.org\/web\/20160123121200\/http:\/\/goanimate.com\/","duration":"17","playcount":1,"thumbnailURL":"https:\/\/web.archive.org\/web\/20160123121200\/http:\/\/s3.amazonaws.com\/fs.goanimate.com\/files\/thumbnails\/movie\/876\/5682876\/13801618L.jpg","copyable":"0","isPublished":"1","ctc":"go","tlang":"en_US","is_private_shared":"0","autostart":"0","appCode":"go","is_slideshow":"0","originalId":"0zEt_fo4L-5k","is_emessage":"0","storePath":"https:\/\/web.archive.org\/web\/20160123121200\/http:\/\/lightspeed.goanimate.com\/store\/3f81e7484f09affd\/<store>","clientThemePath":"https:\/\/web.archive.org\/web\/20160123121200\/http:\/\/lightspeed.goanimate.com\/static\/e15535186b40e6eb\/<client_theme>","animationPath":"https:\/\/web.archive.org\/web\/20160123121200\/http:\/\/lightspeed.goanimate.com\/animation\/4bd9a7c97397c789\/","isEmbed":"0","refuser":null,"utm_source":null,"uid":null,"isTemplate":"0","showButtons":"1","chain_mids":"","averageRating":"0","ratingCount":"0","fb_app_url":"https:\/\/web.archive.org\/web\/20160123121200\/http:\/\/goanimate.com\/","ad":1,"endStyle":0,"isWide":0,"pwm":1,"s3base":"https:\/\/web.archive.org\/web\/20160123121200\/http:\/\/s3.amazonaws.com\/fs.goanimate.com\/,http:\/\/assets.goanimate.com\/","initcb":"playerLoaded","free_trial":1,"showshare":false}});
+
+jQuery('#player-overlay-dismiss').click(function() {
+    jQuery('#player-overlay').hide();
+});
+</script>
                 </div>
-                <div class="col-sm-5">
-                    <div class="row-content">
-                        <input id="copyable-url" class="form-control gtm-ga-event" type="url" readonly="true" value="https://goanimate-wrapper-europe.herokuapp.com/player?movieId=m-0&utm_source=linkshare&amp;utm_medium=linkshare&amp;utm_campaign=usercontent" onclick="this.select()" data-gtmv-action="Share - Click text field" data-gtmv-category="" data-gtmv-label="20077390 - Guest">
+            </div>
+            <div class="video-actions">
+                <span class="divider">|</span>
+                <button class="btn btn-link" data-remote="/ajax/getMovieShare/m-16" data-action="video-share"><span class="glyph-pro glyph-share-alt"></span> &nbsp; Share</button>
+
+                <span class="divider">|</span>
+            </div>
+            <input type="hidden" name="ct" value="b6g+xryOXfUISd24C+U5zQMowMIFfqBqCflgIjwtAY5DJfVBLDcqpqlaD2CgU9PQz9Zodxm5dqsQo6y8sv48crMDO3GJKFUPJ1QAIIOr6+xtroL4e4Ah0DhimbWbEDvB1+3AsiELrCE09kfNkL33iT4pggmRpDynOLALgqYDrkJ1HBXGQys41YivPhYFqnsmLgKL9aC0rVpPefvrIQZ_pO4FAT7UinOTe3o+4lmyKXoEppDvk="/>
+<script>
+$('.video-actions').toggle($('.video-actions').find('.btn').length > 0);
+</script>
+
+
+            <div class="inside">
+                <div class="video-social-share clearfix">
+                    <div>
+                        <div class="pull-left">
+                            <div class="fb-like" data-href="https://vyond2018.herokuapp.com/videos/?movieId=m-16" data-send="true" data-layout="button_count" data-width="160" data-show-faces="false"></div>
+                        </div>
+                    </div>
+                    <div style="width:70px">
+                        <div class="pull-left">
+                        <div class="g-plusone" data-size="medium" data-href="https://vyond2018.herokuapp.com/videos/?movieId=m-16"></div>
+                        </div>
+                    </div>
+                    <div style="width:90px;">
+                        <div class="pull-left">
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-url="https://vyond2018.herokuapp.com/videos/?movieId=m-16" data-hashtags="goanimate">Tweet</a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="pull-left">
+                        <a data-pin-config="beside" href="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fvyond2018.herokuapp.com%2Fvideos%2F%3FmovieId=m-16&amp;media=http%3A%2F%2Fs3.amazonaws.com%2Ffs.goanimate.com%2Ffiles%2Fthumbnails%2Fmovie%2F876%2F5682876%2F13801618L.jpg&amp;description=election" data-pin-do="buttonPin"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png"/></a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-5 socials-icons">
-                    <ul class="socials-sharing">
-                        <li>
-                            <a class="glyph-social glyph-facebook sharing-button gtm-ga-event" data-share-target="facebook" data-gtmv-action="Embed - Facebook - Click" data-gtmv-category="" data-gtmv-label="20077390 - Guest" href="#" onclick="FB.ui({method: 'share', href: 'https://web.archive.org/web/20160412001103/https://goanimate.com/videos/0-13F9yscDHc?utm_source=social&amp;utm_medium=facebook&amp;utm_campaign=usercontent'}); return false;" title="Post the video on Facebook">
-                                <span class="sr-only sr-only-focusable">Post the video on Facebook</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="glyph-social glyph-twitter sharing-button gtm-ga-event" data-share-target="twitter" data-gtmv-action="Share - Twitter - Click" data-gtmv-category="" data-gtmv-label="20077390 - Guest" href="https://web.archive.org/web/20160412001103/https://twitter.com/share?url=https%3A%2F%2Fgoanimate.com%2Fvideos%2F0-13F9yscDHc%3Futm_source%3Dsocial%26utm_medium%3Dtwitter%26utm_campaign%3Dusercontent&amp;text=Mugen+Yujo+-+S1+E1+-+To+Be+Dared" onclick="window.open(this.href, '_blank','height=450,width=550,directories=no,menubar=no,scrollbars=yes,status=no,toolbar=no'); return false;" title="Post a tweet about the video">
-                                <span class="sr-only sr-only-focusable">Post a tweet about the video</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="glyph-social glyph-pinterest sharing-button gtm-ga-event" data-share-target="pinterest" data-gtmv-action="Embed - Pinterest - Click" data-gtmv-category="" data-gtmv-label="20077390 - Guest" href="//web.archive.org/web/20160412001103/http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fgoanimate.com%2Fvideos%2F0-13F9yscDHc%3Futm_source%3Dsocial%26utm_medium%3Dpinterest%26utm_campaign%3Dusercontent&amp;media=http%3A%2F%2Fs3.amazonaws.com%2Ffs.goanimate.com%2Ffiles%2Fthumbnails%2Fmovie%2F2565%2F8243565%2F20077390.jpg&amp;description=Mugen+Yujo+-+S1+E1+-+To+Be+Dared" onclick="window.open(this.href, '_blank','height=450,width=550,directories=no,menubar=no,scrollbars=yes,status=no,toolbar=no'); return false;" title="Post the video on Pinterest">
-                                <span class="sr-only sr-only-focusable">Post the video on Pinterest</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="glyph-social glyph-linked-in sharing-button gtm-ga-event" data-share-target="linkedin" data-gtmv-action="Share - LinkedIn - Click" data-gtmv-category="" data-gtmv-label="20077390 - Guest" href="https://web.archive.org/web/20160412001103/http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fgoanimate.com%2Fvideos%2F0-13F9yscDHc%3Futm_source%3Dsocial%26utm_medium%3Dlinkedin%26utm_campaign%3Dusercontent&amp;title=Mugen+Yujo+-+S1+E1+-+To+Be+Dared&amp;summary=Daniel+is+dared+to+to+a+dangerous+thing%2C+and+accepts+the+dare%2C+but+will+he+still+accept+it%3F++Find+out+next+time+on+Mugen+Yujo%21%0A%0ACopyright+%28C%29+Mugen+Yujo%2C+2014.&amp;source=GoAnimate" onclick="window.open(this.href, '_blank','height=570,width=520,directories=no,menubar=no,scrollbars=yes,status=no,toolbar=no'); return false;" title="Post a link to the video on LinkedIn">
-                                <span class="sr-only sr-only-focusable">Post a link to the video on LinkedIn</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="glyph-social glyph-google-plus sharing-button gtm-ga-event" data-share-target="google+" data-gtmv-action="Embed - Google+ - Click" data-gtmv-category="" data-gtmv-label="20077390 - Guest" href="https://web.archive.org/web/20160412001103/https://plus.google.com/share?url=https%3A%2F%2Fgoanimate.com%2Fvideos%2F0-13F9yscDHc%3Futm_source%3Dsocial%26utm_medium%3Dgplus%26utm_campaign%3Dusercontent" onclick="window.open(this.href, '_blank','height=450,width=550,directories=no,menubar=no,scrollbars=yes,status=no,toolbar=no'); return false;" title="Post the video on Google+">
-                                <span class="sr-only sr-only-focusable">Post the video on Google+</span>
-                            </a>
-                        </li>
+            </div>
+        </div>
+        <div class="video-main-aside" id="player-aside"></div>
+
+</div>
+</div>
+<div class="container main-container">
+    <div class="row">
+        <div class="col-md-8">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#video-info" data-toggle="tab">More Info</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane active" id="video-info">
+                    <p class="inside">Published on: 16 Nov 2012</p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 aside video-aside">
+
+            <div></div><br>
+
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- modals -->
+
+
+<script>
+// Twitter
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//web.archive.org/web/20160123121200/http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+// Google Plus
+(function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+
+// Pinterest
+(function(d){
+  var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+  p.type = 'text/javascript';
+  p.async = true;
+  p.src = '//assets.pinterest.com/js/pinit.js';
+  f.parentNode.insertBefore(p, f);
+}(document));
+
+// constants defined for movie title prefix editing
+var MOVIE_TITLE_PREFIX = '';
+var MOVIE_TITLE = 'election';
+var MOVIE_USERNAME = 'LindNel13';
+
+var USER_USERNAME = '';var MOVIE_COLLAB_LOCK = false;
+// Amplitude interface for Flash player.
+function logAmplitudeEvent(eventName, eventProperties) {
+    if (amplitude !== undefined) {
+        if (eventName === AMPLITUDE_EVENT.PLAYS_VIDEO) {
+            eventProperties["referral"] = document.referrer;
+        }
+        amplitude.logEvent(eventName, eventProperties);
+    }
+}
+
+        amplitudeTrackEvent(
+            AMPLITUDE_EVENT.WATCH_VIDEO,
+            {
+                video_id: '0-1BF1m2VKQA',
+                owner: '0ebQWccvfxlY'
+            }
+        );
+</script>
+
+<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/users.js"></script>
+<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/video.js"></script>
+<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/videos.js"></script>
+
+
+
+
+
+
+
+
+<div id="video-share" class="modal" role="dialog" aria-hidden="true">
+  <div class="modal-dialog"><div class="modal-content"></div></div>
+</div>
+
+<!-- FOOTER -->
+
+<div class="site-footer">
+    <div class="container">
+        <div class="site-footer-nav row">
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h4><span>About GoAnimate</span></h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://josephcrosmanplays532.github.io/about">Who we are</a></li>
+                        <li><a href="https://careers.vyonc.com/">Careers</a></li>
+                        <li><a href="https://josephcrosmanplays532.github.io/contactus">Contact Us</a></li>
+                        <li><a href="https://blog.vyond.com/">Blog</a></li>
+                        <li><a href="https://press.vyond.com/">Press</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h4><span>GoAnimate Solutions</span></h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://goanimate4schools.herokuapp.com">GoAnimate For Schools Remastered</a></li>
+                        <li><a href="https://vyondhosterremastered.000webhostapp.com">Vyond Hoster Remastered</a></li>
+                        <li><a href="https://goanimateforschools.github.io/" target="_blank">GoAnimate for Schools</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h4><span>Usage Guidelines</span></h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://josephcrosmanplays532.github.io/termsofuse">Terms of Service</a></li>
+                        <li><a href="https://josephcrosmanplays532.github.io/legal">About Licensed Themes</a></li>
+                        <li><a href="https://josephcrosmanplays532.github.io/privacy">Privacy Policy</a></li>
+                        <li><a href="//support.vyond.com/hc/en-us/articles/202408574" target="_blank">Cancellation Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h4>Getting Help</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://resources.vyond.com/">Resources</a></li>
+                        <li><a href="https://support.vyond.com/">Help Center</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="export disabled">
-        <div class="container">
-            <div class="title-row">
-                <h3 class="title">Export</h3>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="export-option" id="download-export" data-type="Download">
-                        <div class="icon"></div>
-                        <button class="toggle-trigger"><span class="glyph-halfling glyph-chevron-down"></span></button>
-                        <div class="option-name">Download<br><span class="text-uppercase">Video</span></div>
-                        <div class="description">
-                            Up to 1080p Full HD.                            <a class="for-unavailable" href="https://www.vyond.com/plans/" target="_blank"><br>View plans</a>
-                        </div>
-                        <div class="toggle-content"></div>
-                        <div class="spin"></div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="export-option" id="gif-export" data-type="Gif">
-                        <div class="icon"></div>
-                        <button class="toggle-trigger"><span class="glyph-halfling glyph-chevron-down"></span></button>
-                        <div class="option-name">Download<br><span class="text-uppercase">animated GIF</span></div>
-                        <div class="description">
-                            Paste your video clip anywhere as a GIF!                            <a class="for-unavailable" href="https://www.vyond.com/plans/" target="_blank"><br>View plans</a>                        </div>
-                        <div class="toggle-content"></div>
-                        <div class="spin"></div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="export-option" id="transfer-export">
-                        <div class="icon"></div>
-                        <div class="option-name">Transfer<br><span class="text-uppercase">Commercial Rights</span></div>
-                        <div class="description">
-                            To your clients or other third parties.                            <a class="for-unavailable" href="https://www.vyond.com/plans/" target="_blank"><br>View plans</a>                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="export-option" id="youtube-export" data-type="Youtube" data-connected="true">
-                        <div class="icon"></div>
-                        <button class="toggle-trigger"><span class="glyph-halfling glyph-chevron-down"></span></button>
-                        <div class="option-name">Export to<br><span class="text-uppercase">YouTube</span></div>
-                        <div class="description for-unavailable">
-                            Available to subscribers only.                            <a class="for-unavailable" href="https://www.vyond.com/plans/" target="_blank"><br>View plans</a>                        </div>
-                        <div class="description for-available">
-                        </div>
-                        <div class="toggle-content"></div>
-                        <div class="spin"></div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="export-option" id="wistia-export" data-type="Wistia" data-connected="false">
-                        <div class="icon"></div>
-                        <button class="toggle-trigger"><span class="glyph-halfling glyph-chevron-down"></span></button>
-                        <div class="option-name">Export to<br><span class="text-uppercase">Wistia</span></div>
-                        <div class="description for-unavailable">
-                            Available to subscribers only.                            <a class="for-unavailable" href="https://www.vyond.com/plans/" target="_blank"><br>View plans</a>                        </div>
-                        <div class="description for-available">
-                            <div class="for-connect">Connect</div>
-                            <div class="for-connected">Connected</div>
-                        </div>
-                        <div class="toggle-content"></div>
-                        <div class="spin"></div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="export-option" id="vimeo-export" data-type="Vimeo" data-connected="false">
-                        <div class="icon"></div>
-                        <button class="toggle-trigger"><span class="glyph-halfling glyph-chevron-down"></span></button>
-                        <div class="option-name">Export to<br><span class="text-uppercase">Vimeo</span></div>
-                        <div class="description for-unavailable">
-                            Available to subscribers only.                            <a class="for-unavailable" href="https://www.vyond.com/plans/" target="_blank"><br>View plans</a>                        </div>
-                        <div class="description for-available">
-                            <div class="for-connect">Connect</div>
-                            <div class="for-connected">Connected</div>
-                        </div>
-                        <div class="toggle-content"></div>
-                        <div class="spin"></div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="export-option" id="vzaar-export" data-type="Vzaar" data-connected="false">
-                        <div class="icon"></div>
-                        <button class="toggle-trigger"><span class="glyph-halfling glyph-chevron-down"></span></button>
-                        <div class="option-name">Export to<br><span class="text-uppercase">Vzaar</span></div>
-                        <div class="description for-unavailable">
-                            Available to subscribers only.                            <a class="for-unavailable" href="https://www.vyond.com/plans/" target="_blank"><br>View plans</a>                        </div>
-                        <div class="description for-available">
-                            <div class="for-connect">Connect</div>
-                            <div class="for-connected">Connected</div>
-                        </div>
-                        <div class="toggle-content"></div>
-                        <div class="spin"></div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="export-option" id="viewbix-export" data-type="Viewbix" data-connected="false">
-                        <div class="icon"></div>
-                        <button class="toggle-trigger"><span class="glyph-halfling glyph-chevron-down"></span></button>
-                        <div class="option-name">Export to<br><span class="text-uppercase">Viewbix</span></div>
-                        <div class="description for-unavailable">
-                            Available to subscribers only.                            <a class="for-unavailable" href="https://www.vyond.com/plans/" target="_blank"><br>View plans</a>                        </div>
-                        <div class="description for-available"></div>
-                        <div class="toggle-content"></div>
-                        <div class="spin"></div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="export-option" id="lectora-export" data-type="Lectora" data-connected="false">
-                        <div class="icon"></div>
-                        <button class="toggle-trigger"><span class="glyph-halfling glyph-chevron-down"></span></button>
-                        <div class="option-name">Export to<br><span class="text-uppercase">Lectora</span></div>
-                        <div class="description for-unavailable">
-                            Available to subscribers only.                            <a class="for-unavailable" href="https://www.vyond.com/plans/" target="_blank"><br>View plans</a>                        </div>
-                        <div class="description for-available">
-                            <div class="for-connect">Connect</div>
-                            <div class="for-connected">Connected</div>
-                        </div>
-                        <div class="toggle-content"></div>
-                        <div class="spin"></div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="export-option" id="wevideo-export" data-type="WeVideo" data-connected="false">
-                        <div class="icon"></div>
-                        <button class="toggle-trigger"><span class="glyph-halfling glyph-chevron-down"></span></button>
-                        <div class="option-name">Export to<br><span class="text-uppercase">WeVideo</span></div>
-                        <div class="description for-unavailable">
-                            Available to subscribers only.                            <a class="for-unavailable" href="https://www.vyond.com/plans/" target="_blank"><br>View plans</a>                        </div>
-                        <div class="description for-available">
-                            <div class="for-connect">Connect</div>
-                            <div class="for-connected">Connected</div>
-                        </div>
-                        <div class="toggle-content"></div>
-                        <div class="spin"></div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="export-option" id="vidyard-export" data-type="Vidyard" data-connected="false">
-                        <div class="icon"></div>
-                        <button class="toggle-trigger"><span class="glyph-halfling glyph-chevron-down"></span></button>
-                        <div class="option-name">Export to<br><span class="text-uppercase">Vidyard</span></div>
-                        <div class="description for-unavailable">
-                            Available to subscribers only.                            <a class="for-unavailable" href="https://www.vyond.com/plans/" target="_blank"><br>View plans</a>                        </div>
-                        <div class="description for-available">
-                            <div class="for-connect">Connect</div>
-                            <div class="for-connected">Connected</div>
-                        </div>
-                        <div class="toggle-content"></div>
-                        <div class="spin"></div>
-                    </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="site-footer-socials-container">
+                    Follow us on:
+                    <ul class="site-footer-socials">
+                        <li><a class="glyph-social glyph-facebook" href="https://www.facebook.com/GoAnimateInc"><span class="sr-only">Facebook</span></a></li>
+                        <li><a class="glyph-social glyph-twitter" href="https://twitter.com/GoAnimate"><span class="sr-only">Twitter</span></a></li>
+                        <li><a class="glyph-social glyph-linked-in" href="https://www.linkedin.com/company/goanimate"><span class="sr-only">LinkedIn</span></a></li>
+                        <li><a class="glyph-social glyph-youtube" href="https://www.youtube.com/user/GoAnimate"><span class="sr-only">YouTube</span></a></li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="shortcut-instruction hidden-xs hidden-sm">
-        <div class="container">
-            <ul>
-                <li>
-                    <div class="key play"></div>
-                    <div class="name">Play / Pause</div>
-                </li>
-                <li>
-                    <div class="key back-forward"></div>
-                    <div class="name">Back/forward 5 secs</div>
-                </li>
-                <li>
-                    <div class="key full-screen"></div>
-                    <div class="name">Full Screen</div>
-                </li>
-                <li>
-                    <div class="key exit-full-screen"></div>
-                    <div class="name">Exit Full Screen</div>
-                </li>
-            </ul>
+            <div class="col-sm-6">
+                <div class="site-footer-copyright">
+                    <span class="site-footer-norton">
+                      <script type="text/javascript" src="https://web.archive.org/web/20160123121200js_/https://seal.websecurity.norton.com/getseal?host_name=goanimate.com&amp;size=S&amp;use_flash=NO&amp;use_transparent=YES&amp;lang=en"></script>
+                    </span>
+                    <img src="https://web.archive.org/web/20160123121200im_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/img/footer/logo_amazon.png" alt="AWS Partner Network"/>
+                    &nbsp;&nbsp;&nbsp;
+                    <div class="ga-copy">GoAnimate &copy; 2015</div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-<input id="embed_code_field" type="hidden" value="<iframe scrolling=&quot;no&quot; allowTransparency=&quot;true&quot; allowfullscreen frameborder=&quot;0&quot; width=&quot;620&quot; height=&quot;350&quot; src=&quot;https://goanimate.com/player/embed/0-13F9yscDHc&quot; ></iframe>
-"/>
-<script>
-    var flashPlayerUrl = 'https://josephcrosmanplays532.github.io/animation/66453a3ba2cc5e1b/player.swf',
-        flashPlayerVars = ${JSON.stringify(params.flashvars)},
-        h5PlayerElem = null,
-        sceneDetails = {};
-</script>
-<script>
-    amplitudeTrackEvent(
-        AMPLITUDE_EVENT.WATCH_VIDEO,
-        {
-            video_id: '0-13F9yscDHc',
-            owner: '0yjsQQB5bx50'
-        }
-    );
-</script>
-<script src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/media-controller.js"></script>
-<script src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/video_page.js"></script>
-<script src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/video_page_worknote.js"></script>
-<script src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/video_page_player.js"></script>
-<script src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/video_page_player_control.js"></script>
-<script>
-    var videoPage = new VideoPage("0-13F9yscDHc"),
-        previewPlayer,
-        flashVar = {
-            duration: 29        };
-    var videoCopyableUrl = 'https://goanimate-wrapper-europe.herokuapp.com/player?movieId=m-0&utm_source=linkshare&utm_medium=linkshare&utm_campaign=usercontent';
 
-    function setupPreviewPlayer() {
-        var previewPlayerRetryCount = 5;
-        var video = document.getElementById('h5-player');
-
-        video.innerHTML = '';
-
-        previewPlayer = new PreviewPlayer("wss://preview.goanimate.com", "0-13F9yscDHc", true);
-        previewPlayer.setVideoElement(video);
-                previewPlayer.setUserType('FreeTrial');
-                previewPlayer.setUserAuthenticationToken('N:aab76b9b612c74b24bfe9acb7364a200ljL1+LWhGC3hUEzOkVKr/2qP1gwzvpYRSAGL1uUxJkunWpbs5w19CzWXaTYd6pniS3g0tYsTAZkspYA36yY5Brv26PrJYCerJHw/rYb8ufDg18qLlVemivBjPfRw49Id/f+CjUtielsDAxWIlYWGrJNxac8KjNdyXlTuJ1ucx+tzLhkVP77gIvYLwtR4fZEi');
-    }
-
-    $('[data-action="user-opt-out"]').on('click', function(e) {
-        e.preventDefault();
-        if (previewPlayer) {
-            previewPlayer.userOptOut();
-        } else {
-            switchToFlashPlayer();
-            window.localStorage.setItem(PreviewPlayerConstants.USE_H5_PREVIEW_PREFERENCE_KEY, PreviewPlayerConstants.USER_OPT_OUT);
-        }
-        amplitudeSetUserProperty(
-            AMPLITUDE_USER_PROPERTY_KEYS.LATEST_PLAYER_METHOD,
-            AMPLITUDE_EVENT_PROPERTIES.PREVIEW_METHOD_LEGACY
-        );
-        amplitudeTrackEvent(
-            AMPLITUDE_EVENT.VIDEO_PLAYER_SWITCH,
-            {
-                video_id: '0-13F9yscDHc',
-                action: AMPLITUDE_EVENT_PROPERTIES.PREVIEW_ACTION_HTML5_TO_LEGACY
-            }
-        );
-    });
-
-    $('[data-action="user-opt-in"]').on('click', function(e) {
-        e.preventDefault();
-        if (previewPlayer) {
-            previewPlayer.userOptIn();
-        } else {
-            switchToH5Player();
-            window.localStorage.setItem(PreviewPlayerConstants.USE_H5_PREVIEW_PREFERENCE_KEY, PreviewPlayerConstants.USER_OPT_IN);
-        }
-        amplitudeSetUserProperty(
-            AMPLITUDE_USER_PROPERTY_KEYS.LATEST_PLAYER_METHOD,
-            AMPLITUDE_EVENT_PROPERTIES.PREVIEW_METHOD_HTML5
-        );
-        amplitudeTrackEvent(
-            AMPLITUDE_EVENT.VIDEO_PLAYER_SWITCH,
-            {
-                video_id: '0-13F9yscDHc',
-                action: AMPLITUDE_EVENT_PROPERTIES.PREVIEW_ACTION_LEGACY_TO_HTML5
-            }
-        );
-    });
-    setupPreviewPlayer();
-    loadH5Preview();
-    if (!window.MediaSource) {
-        // MSE unsupported, hide all other notifications and display only the browser compatibility message
-        $('.player-container > .notification').addClass('hidden')
-            .filter('.browser-no-mse').removeClass('hidden');
-        $.post('https://ga.vyond.com/ajax/compileH5Video/0-13F9yscDHc');
-    }
-    $(document).on('click', 'a.for-unavailable', function() {
-        amplitudeTrackEvent(AMPLITUDE_EVENT.VIEW_PLANS_FROM_VIDEO_PAGE);
-    });
-</script>
-
-
-
-<!-- FOOTER -->
-
-<footer class="site-footer">
-    <div class="container">
-        Vyond&trade; is a trademark of GoAnimate, Inc. &copy; 2019 GoAnimate, Inc. <a href="https://www.vyond.com/terms">Terms of Service</a> | <a href="https://www.vyond.com/privacy">Privacy Policy</a> | <a href="https://www.vyond.com/cookies">Cookies Policy</a>
-    </div>
-</footer>
 
 <div id="studio_container" style="display: none;">
     <div id="studio_holder"><!-- Full Screen Studio -->
         <div style="top: 50%; position: relative;">
-            This content requires the Adobe Flash Player 10.3. <a href="https://web.archive.org/web/20160412001103/http://get.adobe.com/flashplayer/">Get Flash</a>
+            This content requires the Adobe Flash Player 10.3. <a href="https://get.adobe.com/flashplayer/">Get Flash</a>
         </div>
     </div>
 </div>
@@ -979,7 +741,7 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
                         <div class="upsell-feature commercial-license">
                             <div class="upsell-feature-body">
                                 <div class="upsell-feature-image">
-                                    <img src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/slide8_commerciallic_icon.png">
+                                    <img src="https://web.archive.org/web/20160123121200im_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/img/upsell/slide8_commerciallic_icon.png">
                                 </div>
                                 <div class="upsell-feature-title">
                                     <h2>Commercial License for Business Use</h2>
@@ -989,7 +751,7 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
 
                             <div>
                                 <div class="text-right">
-                                    <a href="https://web.archive.org/web/20160412001103/http://goanimate.com/business/videoplans">Full comparison &gt;</a>
+                                    <a href="https://josephcrosmanplays532.github.io/business/videoplans">Full comparison &gt;</a>
                                 </div>
 
                                 <ul class="upsell-plan-comparison clearfix">
@@ -1020,7 +782,7 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
                         <div class="upsell-feature business-style">
                             <div class="upsell-feature-body">
                                 <div class="upsell-feature-image">
-                                    <img src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/slide3_bizexestyle_icon.png">
+                                    <img src="https://web.archive.org/web/20160123121200im_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/img/upsell/slide3_bizexestyle_icon.png">
                                 </div>
                                 <div class="upsell-feature-title">
                                     <h2>Business Exclusive Themes</h2>
@@ -1030,7 +792,7 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
 
                             <div>
                                 <div class="text-right">
-                                    <a href="https://web.archive.org/web/20160412001103/http://goanimate.com/business/videoplans">Full comparison &gt;</a>
+                                    <a href="https://josephcrosmanplays532.github.io/business/videoplans">Full comparison &gt;</a>
                                 </div>
 
                                 <ul class="upsell-plan-comparison clearfix">
@@ -1061,7 +823,7 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
                         <div class="upsell-feature unlimited-duration">
                             <div class="upsell-feature-body">
                                 <div class="upsell-feature-image">
-                                    <img src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/slide2_unlimitedvideo_icon.png">
+                                    <img src="https://web.archive.org/web/20160123121200im_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/img/upsell/slide2_unlimitedvideo_icon.png">
                                 </div>
                                 <div class="upsell-feature-title">
                                     <h2>Unlimited Video Duration</h2>
@@ -1071,7 +833,7 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
 
                             <div>
                                 <div class="text-right">
-                                    <a href="https://web.archive.org/web/20160412001103/http://goanimate.com/business/videoplans">Full comparison &gtgt;</a>
+                                    <a href="https://josephcrosmanplays532.github.io/business/videoplans">Full comparison &gt;</a>
                                 </div>
 
                                 <ul class="upsell-plan-comparison clearfix">
@@ -1102,7 +864,7 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
                         <div class="upsell-feature download-video">
                             <div class="upsell-feature-body">
                                 <div class="upsell-feature-image">
-                                    <img src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/slide5_downloadexport_icon.png">
+                                    <img src="https://web.archive.org/web/20160123121200im_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/img/upsell/slide5_downloadexport_icon.png">
                                 </div>
                                 <div class="upsell-feature-title">
                                     <h2>Download and Export Your Videos</h2>
@@ -1112,7 +874,7 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
 
                             <div>
                                 <div class="text-right">
-                                    <a href="https://web.archive.org/web/20160412001103/http://goanimate.com/business/videoplans">Full comparison &gt;</a>
+                                    <a href="https://josephcrosmanplays532.github.io/business/videoplans">Full comparison &gt;</a>
                                 </div>
 
                                 <ul class="upsell-plan-comparison clearfix">
@@ -1143,7 +905,7 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
                         <div class="upsell-feature watermark">
                             <div class="upsell-feature-body">
                                 <div class="upsell-feature-image">
-                                    <img src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/slide4_watermark_icon.png">
+                                    <img src="https://web.archive.org/web/20160123121200im_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/img/upsell/slide4_watermark_icon.png">
                                 </div>
                                 <div class="upsell-feature-title">
                                     <h2>Logo Management</h2>
@@ -1153,7 +915,7 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
 
                             <div>
                                 <div class="text-right">
-                                    <a href="https://web.archive.org/web/20160412001103/http://goanimate.com/business/videoplans">Full comparison &gt;</a>
+                                    <a href="https://josephcrosmanplays532.github.io/business/videoplans">Full comparison &gt;</a>
                                 </div>
 
                                 <ul class="upsell-plan-comparison clearfix">
@@ -1184,7 +946,7 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
                         <div class="upsell-feature character">
                             <div class="upsell-feature-body">
                                 <div class="upsell-feature-image">
-                                    <img src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/slide1_cc_icon.png">
+                                    <img src="https://web.archive.org/web/20160123121200im_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/img/upsell/slide1_cc_icon.png">
                                 </div>
                                 <div class="upsell-feature-title">
                                     <h2>Huge Cast of Characters</h2>
@@ -1194,7 +956,7 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
 
                             <div>
                                 <div class="text-right">
-                                    <a href="https://web.archive.org/web/20160412001103/http://goanimate.com/business/videoplans">Full comparison &gt;</a>
+                                    <a href="https://josephcrosmanplays532.github.io/business/videoplans">Full comparison &gt;</a>
                                 </div>
 
                                 <ul class="upsell-plan-comparison clearfix">
@@ -1225,7 +987,7 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
                         <div class="upsell-feature version-control">
                             <div class="upsell-feature-body">
                                 <div class="upsell-feature-image">
-                                    <img src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/slide6_versioncontrol_icon.png">
+                                    <img src="https://web.archive.org/web/20160123121200im_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/img/upsell/slide6_versioncontrol_icon.png">
                                 </div>
                                 <div class="upsell-feature-title">
                                     <h2>Version Control</h2>
@@ -1235,7 +997,7 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
 
                             <div>
                                 <div class="text-right">
-                                    <a href="https://web.archive.org/web/20160412001103/http://goanimate.com/business/videoplans">Full comparison &gt;</a>
+                                    <a href="https://josephcrosmanplays532.github.io/business/videoplans">Full comparison &gt;</a>
                                 </div>
 
                                 <ul class="upsell-plan-comparison clearfix">
@@ -1266,7 +1028,7 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
                         <div class="upsell-feature qvm-contents">
                             <div class="upsell-feature-body">
                                 <div class="upsell-feature-image">
-                                    <img src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/slide7_qvm_icon.png">
+                                    <img src="https://web.archive.org/web/20160123121200im_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/img/upsell/slide7_qvm_icon.png">
                                 </div>
                                 <div class="upsell-feature-title">
                                     <h2>Premium Templates Content</h2>
@@ -1276,7 +1038,7 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
 
                             <div>
                                 <div class="text-right">
-                                    <a href="https://web.archive.org/web/20160412001103/http://goanimate.com/business/videoplans">Full comparison &gt;</a>
+                                    <a href="https://josephcrosmanplays532.github.io/business/videoplans">Full comparison &gt;</a>
                                 </div>
 
                                 <ul class="upsell-plan-comparison clearfix">
@@ -1307,7 +1069,7 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
                         <div class="upsell-feature qvm-duration">
                             <div class="upsell-feature-body">
                                 <div class="upsell-feature-image">
-                                    <img src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/slide9_templates_icon.png">
+                                    <img src="https://web.archive.org/web/20160123121200im_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/img/upsell/slide9_templates_icon.png">
                                 </div>
                                 <div class="upsell-feature-title">
                                     <h2>Longer Video Duration for Templates</h2>
@@ -1317,7 +1079,7 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
 
                             <div>
                                 <div class="text-right">
-                                    <a href="https://web.archive.org/web/20160412001103/http://goanimate.com/business/videoplans">Full comparison &gt;</a>
+                                    <a href="https://josephcrosmanplays532.github.io/business/videoplans">Full comparison &gt;</a>
                                 </div>
 
                                 <ul class="upsell-plan-comparison clearfix">
@@ -1364,14 +1126,14 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
             </div>
             <div class="modal-footer">
 
-                <a class="btn btn-orange btn-upsell" href="https://web.archive.org/web/20160412001103/http://goanimate.com/business/videoplans?hook=upsell.site">Subscribe</a>
+                <a class="btn btn-orange btn-upsell" href="https://josephcrosmanplays532.github.io/business/videoplans?hook=upsell.site">Subscribe</a>
 
             </div>
         </div>
     </div>
 </div>
 
-<script src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/upsell.js"></script>
+<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/upsell.js"></script>
 
 </div>
 <!-- END OF PAGE STRUCTURE -->
@@ -1455,18 +1217,18 @@ function bannedUser(value){
     }
 }
 </script>
-<div style="height:0;overflow:hidden;"><object width="1" height="1">   <param name="vap" value="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/VAP.swf"></param>   <param name="bgcolor" value="#000000"><param name="allowFullScreen" value="true"></param>   <param name="FlashVars" value="detect=true"/>   <param name="allowscriptaccess" value="always"></param>   <embed src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/VAP.swf" flashvars="detect=true" type="application/x-shockwave-flash" width="1" height="1" bgcolor="#ffffff" allowscriptaccess="always" allowfullscreen="true"></embed></object></div>    <script>
+<div style="height:0;overflow:hidden;"><object width="1" height="1">   <param name="vap" value="https://josephcrosmanplays532.github.io/static/477/go/swf/VAP.swf"></param>   <param name="bgcolor" value="#000000"><param name="allowFullScreen" value="true"></param>   <param name="FlashVars" value="detect=true"/>   <param name="allowscriptaccess" value="always"></param>   <embed src="https://josephcrosmanplays532.github.io/static/477/go/swf/VAP.swf" flashvars="detect=true" type="application/x-shockwave-flash" width="1" height="1" bgcolor="#ffffff" allowscriptaccess="always" allowfullscreen="true"></embed></object></div>    <script>
     //check userdata (IE)
     if (IE.version > 6) {
         var ud = new UserData();
         var ud_expiry = ud.getItem("vap");
-        if (ud_expiry > 1460419864){
+        if (ud_expiry > 1453551120){
             document.body.innerHTML='';
         }
     }
     //check localStorage
     var ls_expiry = locStorage("getItem", "vap");
-    if (ls_expiry > 1460419864){
+    if (ls_expiry > 1453551120){
         document.body.innerHTML='';
     }
     </script>
