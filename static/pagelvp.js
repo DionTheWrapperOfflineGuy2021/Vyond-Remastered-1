@@ -31,17 +31,16 @@ module.exports = function (req, res, url) {
 			};
 			params = {
 				flashvars: {
-                                        'movieOwner': 'LindNel13', 'movieOwnerId': '0ebQWccvfxlY', 'movieId': '', 'movieLid': '0', 'movieTitle': 'election', 
-					'movieDesc': '', 'userId': '', 'username': '', 'uemail': '', 'ut': '-1', 'numContact': '', 'apiserver': '/', 'duration': '17',
-					'playcount': 1, 
-					'thumbnailURL': 'https:\/\/s3.amazonaws.com\/fs.goanimate.com\/files\/thumbnails\/movie\/876\/5682876\/13801618L.jpg',
-					'copyable': '0', 'isPublished': '1', 'ctc': 'go', 'tlang': 'en_US', 'is_private_shared': '0', 'autostart': '0', 
-					'appCode': 'go', 'is_slideshow': '0', 'originalId': '0zEt_fo4L-5k', 'is_emessage': '0', 
-					'storePath': process.env.STORE_URL + '/<store>', 'clientThemePath': process.env.CLIENT_URL + '/<client_theme>',
-					'animationPath': process.env.SWF_URL + '/', 'isEmbed': '0', 'refuser': null, 'utm_source': null, 'uid': null, 
-					'isTemplate': '0', 'showButtons': '1', 'chain_mids': '', 'averageRating': '0', 'ratingCount': '0', 'fb_app_url': '/', 'ad': 1,
-					'endStyle': 0, 'isWide': 0, 'pwm': 1, 's3base': 'https://s3.amazonaws.com/fs.goanimate.com/,http://assets.vyond.com/',
-					'initcb': 'playerLoaded', 'free_trial': 1, 'showshare': false,
+                                        'movieOwner': 'African+Vulture%E2%84%A2', 'movieOwnerId': '0uWOI2JiCdHU', 'movieId': 'm-0', 'movieLid': '0', 
+					'movieTitle': 'Test', 'movieDesc': 'This+video+is+ment+for+testing+out+this+video+player.', 'userId': '', 'username': '', 
+					'uemail': '', 'ut': '-1', 'numContact': '', 'apiserver': '/', 'duration': '92', 'playcount': '0', 
+					'thumbnailURL': 'https://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/movie/1963/7876963/20609517L.jpg',
+					'copyable': '0', 'isPublished': '0', 'ctc': 'go', 'tlang': 'en_US', 'is_private_shared': '1', 'autostart': '0', 'appCode': 'go',
+					'is_slideshow': '0', 'originalId': '0zEt_fo4L-5k', 'is_emessage': '0', 'storePath':  process.env.SWF_URL + '/<store>',
+					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'animationPath': process.env.SWF_URL + '/', 'isEmbed': '0', 
+					'refuser': null, 'utm_source': null, 'uid': null, 'isTemplate': '0', 'showButtons': '1', 'chain_mids': '', 'averageRating': 5,
+					'ratingCount': '48', 'fb_app_url': '/', 'ad': 0, 'endStyle': 0, 'isWide': 0, 'pwm': 1, 
+					's3base': 'https://s3.amazonaws.com/fs.goanimate.com/,https://assets.vyond.com/',
 				},
 
 				allowScriptAccess: 'always',
