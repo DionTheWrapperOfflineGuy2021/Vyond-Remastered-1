@@ -266,30 +266,44 @@ if (self !== top) {
                         We are optimizing this video to be compatible with your browser, please wait a few minutes then refresh this page. <a href="https://web.archive.org/web/20191127101703/https://support.vyond.com/hc/en-us/articles/206949976" target="_blank">Learn more.</a>                    </div>
                     <div class="video-player">
                         <div class="video-player-container">
-                            <div class="video-player-viewport" style="background-image: url('https://web.archive.org/web/20191127101703im_/https://assets.vyond.com/v1/get/fs.goanimate.com/files/thumbnails/movie/2538/6791538/25308444L.jpg?enc_type=sse_c&amp;expires=1574936223&amp;sec_key_id=51209&amp;signature=985b0dc7cd794a445a410af1b4626309bab497665e0b03c72c95e02568b881cb');">
+                            <div class="video-player-viewport using-flash" style="background-image: url('https://web.archive.org/web/20191027000255im_/https://assets.vyond.com/v1/get/fs.goanimate.com/files/thumbnails/movie/2724/12296724/29109915L.jpg?enc_type=sse_c&amp;expires=1536007313&amp;sec_key_id=2034338&amp;signature=2ba191706429b6c63b86296c86862190f54a3917b195639fb28d60fed027ed7c');">
                                 <div class="video-player-wrapper embed-responsive embed-responsive-16by9">
                                     <div class="embed-responsive-item" id="flash-player">${toObjectString(attrs, params)}</div>
-                                        <div class="no-flash-player">
-                                            You can't use Vyond because Flash might be disabled. <a href="https://web.archive.org/web/20191127101703/https://get.adobe.com/flashplayer/">Enable Flash</a>.
-                                        </div>
-                                    </div>
 
-                                    <video class="embed-responsive-item hidden" id="h5-player">
-                                    </video>
+                                    <video class="embed-responsive-item hidden" id="h5-player"></video>
                                 </div>
-                                <div class="video-info hidden-xs" data-video-id="0c6PiRnn6biQ" data-is-owner="no" data-owner="0IuMCaEPbQwA" data-duration="208">
+                                <div class="video-info hidden-xs" data-video-id="07m3MiyKSl-w" data-is-owner="yes" data-owner="0aWj-HdFtJ5c" data-duration="4" style="display: block;">
                                     <div class="video-info-content">
-                                        <h1 class="title">GoAnimate Sidestory: Momo and Tigrus</h1>
-                                        <p class="description"></p>
-                                        <p class="creator">Created by <a href="https://web.archive.org/web/20191127101703/https://ga.vyond.com/user/0IuMCaEPbQwA" title="Tigrus879™">Tigrus879™</a></p>
+                                        <div class="editable">
+                                            <div class="non-edit-fields">
+                                                <a class="edit-video-info" data-action="edit-video-info">Edit video info</a>
+                                                <h1 class="title">Isabelle from animal crossing tests out poopanim8</h1>
+                                                <p class="description"></p>
+                                            </div>
+                                        </div>
+                                        <p class="creator">Created by <a href="https://ga.vyond.com/user/0aWj-HdFtJ5c" title="WolfychuAndBeck">WolfychuAndBeck</a></p>
                                         <p class="status">
-                                                                                                Published: 17 December 2015                                                                                    </p>
+                                            <span class="js-show-revision-history" style="cursor: pointer;">
+                                                                                                Last modified: 2 September 2018 - 4:41pm                                                                                        </span>
+                                        </p>
                                     </div>
+                                    <form id="movie-setting-form" class="edit-fields">
+                                        <div class="form-group">
+                                            <input class="form-control" type="text" name="title" placeholder="Title" value="Isabelle from animal crossing tests out poopanim8" maxlength="50">
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="desc" placeholder="Description" maxlength="255"></textarea>
+                                        </div>
+                                        <div class="form-group text-right">
+                                            <input type="hidden" name="enc_mid" value="07m3MiyKSl-w">
+                                            <button class="btn btn-orange" type="submit">Done</button>
+                                        </div>
+                                    </form>
                                 </div>
-                                <div class="video-loading" id="video-loading">
+                                <div class="video-loading" id="video-loading" style="display: none;">
                                     <div class="video-loading-message"></div>
                                 </div>
-                                <div id="player-control">
+                                <div id="player-control" class="non-playing" style="display: block;">
                                     <div class="seek-bar-container">
                                         <div class="seek-bar">
                                             <div class="buffered-bar"></div>
@@ -305,7 +319,7 @@ if (self !== top) {
                                             <div class="replay-button"></div>
                                         </div>
                                         <div class="progress-time-container">
-                                            <div class="progress-time">00:00 / 00:00</div>
+                                            <div class="progress-time">00:00 / 00:04</div>
                                         </div>
                                         <div class="controls-right">
                                             <div class="volume-container">
