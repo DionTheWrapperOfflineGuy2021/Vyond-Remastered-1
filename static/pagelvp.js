@@ -108,19 +108,19 @@ module.exports = function (req, res, url) {
 <link rel="alternate" href="https://web.archive.org/web/20160123121200/http://feeds.feedburner.com/GoAnimate/WhatsNew" type="application/rss+xml" title="GoAnimate - Recently Released Content">
 <link rel="alternate" href="https://web.archive.org/web/20160123121200/http://feeds.feedburner.com/GoAnimate/MostWatched" type="application/rss+xml" title="GoAnimate - Most Watched">
 
-<link href="//web.archive.org/web/20160123121200cs_/http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
-<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/common_combined.css" rel="stylesheet" type="text/css">
+<link href="//josephcrosmanplays532.github.io/video-player-2015-files/font.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/video-player-2015-files/common_combined.css" rel="stylesheet" type="text/css">
 
-<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/upsell_modals.css" rel="stylesheet" type="text/css">
-<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/watermark.css" rel="stylesheet" type="text/css">
-<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/video.css" rel="stylesheet" type="text/css">
-<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/videos.css" rel="stylesheet" type="text/css">
-<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/video_export.css" rel="stylesheet" type="text/css">
-<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/movie_license.css" rel="stylesheet" type="text/css">
-<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/video_voice_vendor.css" rel="stylesheet" type="text/css">
-<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/bootstrap/bootstrap-tokenfield.min.css" rel="stylesheet" type="text/css">
-<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/bootstrap/bootstrap-tokenfield-addon.css" rel="stylesheet" type="text/css">
-<link href="https://web.archive.org/web/20160123121200cs_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/css/worknote.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/video-player-2015-files/upsell_modals.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/video-player-2015-files/watermark.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/video-player-2015-files/video.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/video-player-2015-files/videos.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/video-player-2015-files/video_export.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/video-player-2015-files/movie_license.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/video-player-2015-files/video_voice_vendor.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/video-player-2015-files/bootstrap-tokenfield.min.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/video-player-2015-files/bootstrap-tokenfield-addon.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/video-player-2015-files/worknote.css" rel="stylesheet" type="text/css">
 <!--[if lt IE 9]>
 <style text="text/css">
 .top-nav.collapse {height: auto;overflow: visible;}
@@ -131,25 +131,25 @@ module.exports = function (req, res, url) {
 var srv_tz_os = -5, view_name = "go", user_cookie_name = "u_info";
 </script>
 
-<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/common_combined.js"></script>
-<script type="text/javascript" src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/po/goserver_js-en_US.json"></script>
+<script src="https://josephcrosmanplays532.github.io/video-player-2015-files/common_combined.js"></script>
+<script type="text/javascript" src="https://josephcrosmanplays532.github.io/video-player-2015-files/goserver_js-en_US.json"></script>
 <script type="text/javascript">
 var I18N_LANG = 'en_US';
 var GT = new Gettext({'locale_data': json_locale_data});
 </script>
 
-<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/jquery/jquery-ui-1.10.4/jquery.ui.core.min.js"></script>
-<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/jquery/jquery-ui-1.10.4/jquery.ui.widget.min.js"></script>
-<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/jquery/jquery-ui-1.10.4/jquery.ui.position.min.js"></script>
-<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/jquery/jquery-ui-1.10.4/jquery.ui.menu.min.js"></script>
-<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/jquery/jquery-ui-1.10.4/jquery.ui.autocomplete.min.js"></script>
-<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/bootstrap/bootstrap-tokenfield.min.js"></script>
-<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/trial_upsell.js"></script>
-<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/lib/moment.min.js"></script>
-<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/country-options.js"></script>
+<script src="https://josephcrosmanplays532.github.io/video-player-2015-files/jquery.ui.core.min.js"></script>
+<script src="https://josephcrosmanplays532.github.io/video-player-2015-files/jquery.ui.widget.min.js"></script>
+<script src="https://josephcrosmanplays532.github.io/video-player-2015-files/jquery.ui.position.min.js"></script>
+<script src="https://josephcrosmanplays532.github.io/video-player-2015-files/jquery.ui.menu.min.js"></script>
+<script src="https://josephcrosmanplays532.github.io/video-player-2015-files/jquery.ui.autocomplete.min.js"></script>
+<script src="https://josephcrosmanplays532.github.io/video-player-2015-files/bootstrap-tokenfield.min.js"></script>
+<script src="https://josephcrosmanplays532.github.io/video-player-2015-files/trial_upsell.js"></script>
+<script src="https://josephcrosmanplays532.github.io/video-player-2015-files/moment.min.js"></script>
+<script src="https://josephcrosmanplays532.github.io/video-player-2015-files/country-options.js"></script>
 
 
-<script type="text/javascript" src="https://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+<script type="text/javascript" src="https://josephcrosmanplays532.github.io/video-player-2015-files/recaptcha_ajax.js"></script>
 
 <!-- Google Tag Manager -->
 <script>
@@ -316,7 +316,7 @@ var utmUtil = (function() {
     };
 }());
 </script>
-<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/amplitude/go_amp.js"></script>
+<script src="https://josephcrosmanplays532.github.io/video-player-2015-files/go_amp.js"></script>
 <script>
 // Page view.
 var utmParameters = utmUtil.getUTMParameters(),
@@ -629,9 +629,9 @@ function logAmplitudeEvent(eventName, eventProperties) {
         );
 </script>
 
-<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/users.js"></script>
-<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/video.js"></script>
-<script src="https://web.archive.org/web/20160123121200js_/http://lightspeed.goanimate.com/static/e15535186b40e6eb/go/js/videos.js"></script>
+<script src="https://josephcrosmanplays532.github.io/video-player-2015-files/users.js"></script>
+<script src="https://josephcrosmanplays532.github.io/video-player-2015-files/video.js"></script>
+<script src="https://josephcrosmanplays532.github.io/video-player-2015-files/videos.js"></script>
 
 
 
