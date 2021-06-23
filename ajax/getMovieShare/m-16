@@ -1,0 +1,55 @@
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title">Share video</h3>
+        </div>
+        <div class="modal-body">
+
+            <h4 class="compact">Embed this GoAnimate video on other sites</h4>
+            <p>Let users watch this GoAnimate video on other sites using the GoAnimate embedded player.</p>
+            <div class="row">
+                <div class="col-md-6">
+                        <a class="share-btn facebook" rel="tooltip" title="Post your video on Facebook" href="#" onclick="window.exportPublishBehaviour('', 'Embed - Facebook - Click', '22970646 - Guest'); FB.ui({method: 'share', href: 'https://web.archive.org/web/20150828040522/https://goanimate.com/videos/0MIrsK-6IRzQ?utm_source=social&amp;utm_medium=facebook&amp;utm_campaign=usercontent'}); return false;"></a>
+                        <a class="share-btn pinterest" rel="tooltip" title="Post your video on Pinterest" href="//pinterest.com/pin/create/button/?url=https%3A%2F%2Fvyond2018.herokuapp.com%2Fvideos%2F%3FmovieId%3Dm-16%26utm_source%3Dsocial%26utm_medium%3Dpinterest%26utm_campaign%3Dusercontent&amp;media=http%3A%2F%2Fs3.amazonaws.com%2Ffs.goanimate.com%2Ffiles%2Fthumbnails%2Fmovie%2F1963%2F7876963%2F22970646.jpg&amp;description=Little+Bill+Brings+an+Elephant+Home%2FGrounded" onclick="window.exportPublishBehaviour('', 'Embed - Pinterest - Click', '22970646 - Guest'); window.open(this.href, '_blank','height=450,width=550,directories=no,menubar=no,scrollbars=yes,status=no,toolbar=no'); return false;"></a>
+                                    </div>
+                <div class="col-md-6">
+                                        <div class="input-group">
+                        <span class="input-group-addon">&lt;/&gt;</span>
+                        <input class="form-control" type="text" value="<a href=&quot;https://vyond2018.herokuapp.com/videos/?movieId=m-16&utm_source=embed&quot; target=&quot;_blank&quot;>Test</a> by <a href=&quot;https://josephcrosmanplays532.github.io/users/josephanimate2021&quot; target=&quot;_blank&quot;>Joseph Animate 2021</a> on <a href='https://vyond2018.herokuapp.com?utm_source=embed' target=&quot;_blank&quot;>Vyond 2018</a><br /><iframe
+    scrolling=&quot;no&quot;
+    allowTransparency=&quot;true&quot;
+    frameborder=&quot;0&quot;
+    width=&quot;400&quot; height=&quot;258&quot;
+    src=&quot;https://josephcrosmanplays532.github.io/player/embed/m-16?utm_source=social&amp;utm_medium=tumblr&amp;utm_campaign=usercontent&quot;
+></iframe>" onclick="window.exportPublishBehaviour('', 'Embed - Click text field', '22970646 - Guest'); this.focus();this.select()">
+                    </div>
+                                    </div>
+            </div>
+
+            <div class="modal-body-separator"></div>
+
+            <h4 class="compact">Share a link to this GoAnimate video</h4>
+            <p>Users clicking this link will watch this video on GoAnimate.</p>
+            <div class="row">
+                <div class="col-md-6">
+                                            <a class="share-btn linkedin" rel="tooltip" title="Post a link to your video on Linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fvyond2018.herokuapp.com%2Fvideos%2F%3FmovieId%3Dm-16&26utm_source%3Dsocial%26utm_medium%3Dlinkedin%26utm_campaign%3Dusercontent&amp;title=Test&amp;summary=&amp;source=Vyond2018" onclick="window.exportPublishBehaviour('', 'Share - LinkedIn - Click', '22970646 - Guest'); window.open(this.href, '_blank','height=570,width=520,directories=no,menubar=no,scrollbars=yes,status=no,toolbar=no'); return false;"></a>
+                        <a class="share-btn reddit" rel="tooltip" title="Post a link to your video on Reddit" href="https://www.reddit.com/submit?url=https%3A%2F%2Fvyond2018.herokuapp.com%2Fvideos%2F%3FmovieId%3Dm-16&26utm_source%3Dsocial%26utm_medium%3Dreddit%26utm_campaign%3Dusercontent" onclick="window.exportPublishBehaviour('', 'Share - Reddit - Click', '22970646 - Guest'); window.open(this.href, '_blank'); return false;"></a>
+                        <a class="share-btn twitter" rel="tooltip" title="Post a tweet about your video" href="https://twitter.com/share?url=https%3A%2F%2Fvyond2018.herokuapp.com%2Fvideos%2F%3FmovieId%3Dm-16&26utm_source%3Dsocial%26utm_medium%3Dtwitter%26utm_campaign%3Dusercontent&amp;text=Test" onclick="window.exportPublishBehaviour('', 'Share - Twitter - Click', '22970646 - Guest'); window.open(this.href, '_blank','height=450,width=550,directories=no,menubar=no,scrollbars=yes,status=no,toolbar=no'); return false;"></a>
+                        <a class="share-btn su" rel="tooltip" title="Post a link to your video on StumbleUpon" href="https://www.stumbleupon.com/submit?url=https%3A%2F%2Fvyond2018.herokuapp.com%2Fvideos%2F%3FmovieId%3Dm-16&26utm_source%3Dsocial%26utm_medium%3Dstumbleupon%26utm_campaign%3Dusercontent" onclick="window.exportPublishBehaviour('', 'Share - StumbledUpon - Click', '22970646 - Guest');"></a>
+                        <a class="share-btn tumblr" rel="tooltip" title="Post a link to your video on Tumblr" href="https://www.tumblr.com/share/video?embed=%3Ciframe%0A++++scrolling%3D%22no%22%0A++++allowTransparency%3D%22true%22%0A++++frameborder%3D%220%22%0A++++width%3D%22400%22+height%3D%22258%22%0A++++src%3D%22https%3A%2F%2Fjosephcrosmanplays532.github.io%2Fplayer%2Fembed%2Fm-16%3Futm_source%3Dsocial%26utm_medium%3Dtumblr%26utm_campaign%3Dusercontent%22%0A%3E%3C%2Fiframe%3E&amp;caption=Test" onclick="window.exportPublishBehaviour('', 'Share - Tumbler - Click', '22970646 - Guest');"></a>
+                                    </div>
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">URL</span>
+                        <input class="form-control" type="text" value="https://vyond2018.herokuapp.com/videos/?movieId=m-16&utm_source=linkshare&amp;utm_medium=linkshare&amp;utm_campaign=usercontent" onclick="window.exportPublishBehaviour('', 'Share - Click text field', '22970646 - Guest'); this.focus();this.select()">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+</div>
