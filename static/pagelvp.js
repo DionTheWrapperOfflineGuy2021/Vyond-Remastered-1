@@ -509,7 +509,7 @@ jQuery('#playerdiv').flash({
 
     hasVersion: "10.3",
 
-    flashvars: {"movieOwner":"LindNel13","movieOwnerId":"0ebQWccvfxlY","movieId":"0-1BF1m2VKQA","movieLid":"0","movieTitle":"election","movieDesc":"","userId":"","username":"","uemail":"","ut":"-1","numContact":"","apiserver":"https:\/\/web.archive.org\/web\/20160123121200\/http:\/\/goanimate.com\/","duration":"17","playcount":1,"thumbnailURL":"https:\/\/web.archive.org\/web\/20160123121200\/http:\/\/s3.amazonaws.com\/fs.goanimate.com\/files\/thumbnails\/movie\/876\/5682876\/13801618L.jpg","copyable":"0","isPublished":"1","ctc":"go","tlang":"en_US","is_private_shared":"0","autostart":"0","appCode":"go","is_slideshow":"0","originalId":"0zEt_fo4L-5k","is_emessage":"0","storePath":"https:\/\/web.archive.org\/web\/20160123121200\/http:\/\/lightspeed.goanimate.com\/store\/3f81e7484f09affd\/<store>","clientThemePath":"https:\/\/web.archive.org\/web\/20160123121200\/http:\/\/lightspeed.goanimate.com\/static\/e15535186b40e6eb\/<client_theme>","animationPath":"https:\/\/web.archive.org\/web\/20160123121200\/http:\/\/lightspeed.goanimate.com\/animation\/4bd9a7c97397c789\/","isEmbed":"0","refuser":null,"utm_source":null,"uid":null,"isTemplate":"0","showButtons":"1","chain_mids":"","averageRating":"0","ratingCount":"0","fb_app_url":"https:\/\/web.archive.org\/web\/20160123121200\/http:\/\/goanimate.com\/","ad":1,"endStyle":0,"isWide":0,"pwm":1,"s3base":"https:\/\/web.archive.org\/web\/20160123121200\/http:\/\/s3.amazonaws.com\/fs.goanimate.com\/,http:\/\/assets.goanimate.com\/","initcb":"playerLoaded","free_trial":1,"showshare":false}});
+    flashvars: ${JSON.stringify(params.flashvars)}
 
 jQuery('#player-overlay-dismiss').click(function() {
     jQuery('#player-overlay').hide();
