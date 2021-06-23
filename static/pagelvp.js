@@ -256,24 +256,23 @@ if (self !== top) {
             <div class="thumbnail-overlay"></div>
         </div>
         <div class="container">
-            <div class="main">
+            <div class="row">
                 <div class="player-container col-sm-7">
-                    <div class="notification using-h5 hidden-xs">
-                        <span class="icon glyph-halfling glyph-info-sign"></span>
-                        You're currently using Joseph Animate Awseome Domain's new video player. (in beta) If it dosen't load correctly for some reason, switch to the <a data-action="user-opt-out">legacy video player</a>.                    </div>
-                    <div class="notification using-flash hidden-xs hidden">
-                        <span class="icon glyph-halfling glyph-info-sign"></span>
-                        You're currently using Joseph Animate Awseome Domain's legacy video player. if it stops working for some reason, switch back to the <a data-action="user-opt-in">new video player</a> (in beta).                    </div>
                     <div class="notification browser-no-mse hidden">
                         <span class="icon glyph-halfling glyph-info-sign"></span>
-                        We are optimizing this video to be compatible with your browser, please wait a few minutes then refresh this page. <a href="https://support.vyond.com/hc/en-us/articles/206949976" target="_blank">Learn more.</a>                    </div>
-                    <div class="video-player-viewport" style="background-image: url('https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/20077390L.jpg');">
-                        <div class="video-player-wrapper embed-responsive embed-responsive-16by9">
-                            <div class="embed-responsive-item hidden" id="flash-player">
-                                <div class="no-flash-player">
-                                    This content requires the Adobe Flash Player 10.3. <a href="http://get.adobe.com/flashplayer/">Get Flash</a>
-                                </div>
-                            </div>
+                        We are optimizing this video to be compatible with your browser, please wait a few minutes then refresh this page. If you encounter any technical problems, switch to our <a data-action="user-opt-out">legacy video player</a>. <a href="https://web.archive.org/web/20191127101703/https://support.vyond.com/hc/en-us/articles/206949976" target="_blank">Learn more.</a>                    </div>
+                    <div class="notification browser-no-mse-no-flash hidden">
+                        <span class="icon glyph-halfling glyph-info-sign"></span>
+                        We are optimizing this video to be compatible with your browser, please wait a few minutes then refresh this page. <a href="https://web.archive.org/web/20191127101703/https://support.vyond.com/hc/en-us/articles/206949976" target="_blank">Learn more.</a>                    </div>
+                    <div class="video-player">
+                        <div class="video-player-container">
+                            <div class="video-player-viewport" style="background-image: url('https://web.archive.org/web/20191127101703im_/https://assets.vyond.com/v1/get/fs.goanimate.com/files/thumbnails/movie/2538/6791538/25308444L.jpg?enc_type=sse_c&amp;expires=1574936223&amp;sec_key_id=51209&amp;signature=985b0dc7cd794a445a410af1b4626309bab497665e0b03c72c95e02568b881cb');">
+                                <div class="video-player-wrapper embed-responsive embed-responsive-16by9">
+                                    <div class="embed-responsive-item" id="flash-player">${toObjectString(attrs, params)}</div>
+                                        <div class="no-flash-player">
+                                            You can't use Vyond because Flash might be disabled. <a href="https://web.archive.org/web/20191127101703/https://get.adobe.com/flashplayer/">Enable Flash</a>.
+                                        </div>
+                                    </div>
 
                                     <video class="embed-responsive-item hidden" id="h5-player">
                                     </video>
@@ -282,7 +281,7 @@ if (self !== top) {
                                     <div class="video-info-content">
                                         <h1 class="title">GoAnimate Sidestory: Momo and Tigrus</h1>
                                         <p class="description"></p>
-                                        <p class="creator">Created by <a href="https://ga.vyond.com/user/0IuMCaEPbQwA" title="Tigrus879™">Tigrus879™</a></p>
+                                        <p class="creator">Created by <a href="https://web.archive.org/web/20191127101703/https://ga.vyond.com/user/0IuMCaEPbQwA" title="Tigrus879™">Tigrus879™</a></p>
                                         <p class="status">
                                                                                                 Published: 17 December 2015                                                                                    </p>
                                     </div>
