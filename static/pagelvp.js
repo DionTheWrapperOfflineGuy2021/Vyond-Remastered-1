@@ -31,9 +31,20 @@ module.exports = function (req, res, url) {
 			};
 			params = {
 				flashvars: {
-					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>', 'ut': 60,
-					'autostart': 0, 'isWide': 1, 'clientThemePath': process.env.CLIENT_URL + '/<client_theme>',
+					'movieOwner': 'USER+RETIRED', 'movieOwnerId': '0vPLkFi4Y7kw', 'movieId': 'm-0', 'movieLid': '0', 
+					'movieTitle': 'Butler+Sues+His+Parents+%28Series+Finale%29', 'movieDesc': 'Credit+to+everyone.+This+is+my+final+Butler+Video.',
+					'userId': '', 'username': '', 'uemail': '', 'ut': '-1', 'numContact': '', 'apiserver': '/', 'duration': '140', 'playcount': 1,
+					'thumbnailURL': 'https:\/\/s3.amazonaws.com\/fs.goanimate.com\/files\/thumbnails\/movie\/1217\/1588217\/20774464L.jpg', 
+					'copyable': '0', 'isPublished': '1', 'ctc': 'go', 'tlang': 'en_US', 'is_private_shared': '0', 'autostart': '0', 'appCode': 
+					'go', 'is_slideshow': '0', 'originalId': '0zEt_fo4L-5k', 'is_emessage': '0', 
+					'storePath': process.env.STORE_URL + '/<store>',
+					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>',
+					'animationPath': process.env.SWF_URL + '/', 'isEmbed': '0', 'refuser': null, 'utm_source': null, 'uid': null, 
+					'isTemplate': '0', 'showButtons': '1', 'chain_mids': '', 'averageRating': 5, 'ratingCount': '19', 'fb_app_url': '/', 'ad': 1,
+					'endStyle': 0, 'isWide': '1', 'pwm': 1, 's3base': 'https://s3.amazonaws.com/fs.goanimate.com/,https://assets.vyond.com/',
+					'initcb': 'flashPlayerLoaded', 'showshare': false,
 				},
+
 				allowScriptAccess: 'always',
 				allowFullScreen: 'true'
 			};
