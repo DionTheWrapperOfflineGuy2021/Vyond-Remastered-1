@@ -109,7 +109,7 @@ module.exports = function (req, res, url) {
 <link rel="alternate" href="https://web.archive.org/web/20160123121200/http://feeds.feedburner.com/GoAnimate/MostWatched" type="application/rss+xml" title="GoAnimate - Most Watched">
 
 <link href="//josephcrosmanplays532.github.io/video-player-2015-files/font.css" rel="stylesheet" type="text/css">
-<link href="https://josephcrosmanplays532.github.io/video-player-2015-files/common_combined.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/css/common_combined.css.gz.css" rel="stylesheet" type="text/css">
 
 <link href="https://josephcrosmanplays532.github.io/video-player-2015-files/upsell_modals.css" rel="stylesheet" type="text/css">
 <link href="https://josephcrosmanplays532.github.io/video-player-2015-files/watermark.css" rel="stylesheet" type="text/css">
@@ -389,8 +389,7 @@ if (self !== top) {
 
 
 <div class="site-header">
-    <div class="navbar site-nav" role="navigation">
-        <div class="container">
+    <div class="navbar site-nav site-nav--legacy" role="navigation">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -398,48 +397,49 @@ if (self !== top) {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                <a class="navbar-brand" href="https://vyondremastered1.herokuapp.com/" title="Vyond Remastered">
-                    <img alt="Make a Video Online with GoAnimate.com" src="/html/logo.png">
-                </a>
+                  <a class="navbar-brand" href="https://ga.vyond.com/yourvideos" title="Vyond">
+                      <img alt="Vyond" src="/html/logo.png">
+                  </a>
             </div>
-
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 
-                <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="https://josephcrosmanplays532.github.io/signup">Free Trial</a></li>
-                    <li><a href="https://josephcrosmanplays532.github.io/login">Login</a></li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" href="https://josephcrosmanplays532.github.io/videos" data-toggle="dropdown">Explore <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="https://resources.vyond.com/">Resources</a></li>
-                            <li><a href="https://blog.vyond.com/">Blog</a></li>
-                            <li><a href="https://josephcrosmanplays532.github.io/videos">Featured Videos</a></li>
-                            <li><a href="https://josephcrosmanplays532.github.io/features">Features</a></li>
-                            <li><a href="https://support.vyond.com/">Help Center</a></li>
-                        </ul>
-                    </li>
-                                    <li class="plans-and-pricing">
-                        <a href="https://josephcrosmanplays532.github.io/business/videoplans/?hook=header_button.site">Plans &amp; Pricing</a>
-                    </li>
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown">
+    <a class="dropdown-toggle" href="https://discord.gg/YYFenX5Fep" data-toggle="dropdown">Help<span class="dropdown-caret"></span></a>
+    <ul class="dropdown-menu dropdown-menu-help">
+        <li>
+            <a href="https://discord.gg/YYFenX5Fep">Help Center</a>
+        </li>
+    </ul>
+</li>
                     <li>
-                        <a class="hidden-sm hidden-md hidden-lg" href="https://josephcrosmanplays532.github.io/videomaker">Make a Video</a>
-                        <span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="https://josephcrosmanplays532.github.io/videomaker">Make a Video</a></span>
+                        <a class="hidden-sm hidden-md hidden-lg" href="/videomaker">Make a Video</a>
+                        <span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="/videomaker">Make a Video</a></span>
                     </li>
-                </ul>
-            </div>
-
-            <div class="noti_tooltips_container"></div>
+<li class="dropdown">
+    <a class="dropdown-toggle" href="https://ga.vyond.com/account?_ga=2.15274102.1991779285.1608744997-274477995.1607549653" data-toggle="dropdown" aria-expanded="false">
+        <span class="hidden-sm hidden-md hidden-lg">Your Account</span>
+        <div class="site-nav__profile-image">
+            <div class="badge-circle">U</div>
         </div>
+<span class="dropdown-caret"></span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-user">
+        <li class="dropdown-user-profile">
+            <div class="dropdown-user-profile__display-name">
+                BluePeacocks            </div>
+        
+        <li class="divider"></li>
+        <li><a href="/account">Account Settings</a></li>
+        <li class="divider"></li>
+        <li><a class="logout-link gtm-logout" href="/logoff">Logout</a></li>
+    </ul>
+</li>
+      </ul>
+                
+            </div>
     </div>
 </div>
-    <script>var notiTooltips = new NotificationTooltips($('#idxNotibtn'));</script>
-
-
-<script>
-    jQuery('.logout-link').click(function(){
-        amplitudeTrackEvent(AMPLITUDE_EVENT.LOGOUT, null);
-    });
-    </script>
 
 <!-- END OF HEADER -->
 <div id="video-page">
