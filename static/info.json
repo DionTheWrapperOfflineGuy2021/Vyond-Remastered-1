@@ -26,10 +26,10 @@
 			},
 			"content": "<cross-domain-policy><allow-access-from domain=\"*\"/></cross-domain-policy>"
 		},
-		"/cc.swf": {},
-		"/go_full.swf": {},
-		"/favicon.ico": {},
-		"/char-default\\.png": {
+		"cc.swf": {},
+		"go_full.swf": {},
+		"favicon.ico": {},
+		"char-default.png": {
 			"headers": {
 				"Content-Type": "image/png"
 			},
